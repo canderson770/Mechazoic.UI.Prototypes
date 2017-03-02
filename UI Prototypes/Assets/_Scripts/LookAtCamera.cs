@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class LookAtCamera : MonoBehaviour 
 {
-	public bool left;
+	public bool flip;
+	public Camera mainCamera;
 
 	void Start () 
 	{
+		if (mainCamera == null)
+			mainCamera = Camera.main;
 	}
 	
 	void Update ()
 	{
-		transform.LookAt(new Vector3(Camera.main.transform.position.x, transform.position.y, Camera.main.transform.position.z));
+		transform.LookAt(new Vector3(mainCamera.transform.position.x, transform.position.y, mainCamera.transform.position.z));
 
-//		transform.LookAt (Camera.main.transform);
-		if(left)
+		if(flip)
 			transform.Rotate(0,180,0 );
 	}
 }

@@ -11,7 +11,7 @@ public class CharacterSelect : MonoBehaviour
 	void Start () 
 	{
 		anim = GetComponent<Animator> ();
-		characters [currentCharacter].SetActive (true);
+		HologramAppear();
 	}
 	
 	void Update () 
@@ -24,8 +24,7 @@ public class CharacterSelect : MonoBehaviour
 			else
 				currentCharacter -= 1;
 			
-			characters [currentCharacter].SetActive (true);
-			anim.PlayInFixedTime ("in");
+			HologramAppear ();
 		} 
 		else if (Input.GetKeyDown (KeyCode.Period))
 		{
@@ -36,13 +35,21 @@ public class CharacterSelect : MonoBehaviour
 			else
 				currentCharacter += 1;
 			
-			characters [currentCharacter].SetActive (true);
-			anim.PlayInFixedTime ("in");
+			HologramAppear ();
 		}
 	}
 
 	void ChangeCharacter(string _s)
 	{
-		StaticVars.characterP1 = StaticVars.characters.Animantarx;
+		string tempDino = _s.Replace ("Hologram", "");
+		StaticVars.characterP1 = (StaticVars.dinoList)System.Enum.Parse (typeof(StaticVars.dinoList), tempDino);
+	}
+
+	void HologramAppear()
+	{
+		characters [currentCharacter].SetActive (true);
+		ChangeCharacter (characters [currentCharacter].name);
+		anim.PlayInFixedTime ("in");
+		print (StaticVars.characterP1);
 	}
 }

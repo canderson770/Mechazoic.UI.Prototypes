@@ -7,10 +7,10 @@ public class StaticVars : MonoBehaviour
 	public static float heat;
 	public static float health;
 
-	public enum characters{Animantarx, Sinornthoides}
+	public enum dinoList{Animantarx, Kentrosaurus, Sinornithoides, Tyrannosaurus_Rex}
 
-	public static characters characterP1;
-	public static characters characterP2;
-	public static characters characterP3;
-	public static characters characterP4;
+	public static dinoList characterP1;
+	public static dinoList characterP2;
+	public static dinoList characterP3;
+	public static dinoList characterP4;
 }
