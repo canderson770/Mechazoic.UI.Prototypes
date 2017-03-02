@@ -1,0 +1,662 @@
+fileFormatVersion: 2
+guid: db48c500b1cd6c545bc6fd1e7ec3bcf6
+timeCreated: 1487886905
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Core_Jnt
+    100002: Global
+    100004: group1
+    100006: group10
+    100008: group11
+    100010: group12
+    100012: group13
+    100014: group14
+    100016: group15
+    100018: group16
+    100020: group17
+    100022: group18
+    100024: group19
+    100026: group2
+    100028: group20
+    100030: group22
+    100032: group23
+    100034: group24
+    100036: group25
+    100038: group26
+    100040: group28
+    100042: group29
+    100044: group3
+    100046: group6
+    100048: group7
+    100050: group8
+    100052: group9
+    100054: ikHandle1
+    100056: ikHandle2
+    100058: ikHandle3
+    100060: ikHandle4
+    100062: joint13
+    100064: joint18
+    100066: joint19
+    100068: joint2
+    100070: joint3
+    100072: joint32
+    100074: joint33
+    100076: joint33 1
+    100078: joint34
+    100080: joint34 1
+    100082: joint35
+    100084: joint35 1
+    100086: joint38
+    100088: joint4
+    100090: joint40
+    100092: joint45
+    100094: joint47
+    100096: joint49
+    100098: joint51
+    100100: joint52
+    100102: joint54
+    100104: joint55
+    100106: joint55 1
+    100108: joint56
+    100110: joint56 1
+    100112: joint57
+    100114: joint7
+    100116: nurbsCircle1
+    100118: nurbsCircle1 1
+    100120: nurbsCircle1 10
+    100122: nurbsCircle1 11
+    100124: nurbsCircle1 12
+    100126: nurbsCircle1 13
+    100128: nurbsCircle1 14
+    100130: nurbsCircle1 15
+    100132: nurbsCircle1 16
+    100134: nurbsCircle1 2
+    100136: nurbsCircle1 3
+    100138: nurbsCircle1 4
+    100140: nurbsCircle1 5
+    100142: nurbsCircle1 6
+    100144: nurbsCircle1 7
+    100146: nurbsCircle1 8
+    100148: nurbsCircle1 9
+    100150: nurbsCircle2
+    100152: nurbsCircle4
+    100154: polySurface100
+    100156: polySurface101
+    100158: polySurface102
+    100160: polySurface103
+    100162: polySurface104
+    100164: polySurface105
+    100166: polySurface106
+    100168: polySurface107
+    100170: polySurface108
+    100172: polySurface109
+    100174: polySurface110
+    100176: polySurface111
+    100178: polySurface112
+    100180: polySurface113
+    100182: polySurface114
+    100184: polySurface115
+    100186: polySurface55
+    100188: polySurface56
+    100190: polySurface57
+    100192: polySurface65
+    100194: polySurface66
+    100196: polySurface69
+    100198: polySurface70
+    100200: polySurface85
+    100202: polySurface91
+    100204: polySurface95
+    100206: polySurface97
+    100208: polySurface98
+    100210: Sinornithoides
+    100212: //RootNode
+    400000: Core_Jnt
+    400002: Global
+    400004: group1
+    400006: group10
+    400008: group11
+    400010: group12
+    400012: group13
+    400014: group14
+    400016: group15
+    400018: group16
+    400020: group17
+    400022: group18
+    400024: group19
+    400026: group2
+    400028: group20
+    400030: group22
+    400032: group23
+    400034: group24
+    400036: group25
+    400038: group26
+    400040: group28
+    400042: group29
+    400044: group3
+    400046: group6
+    400048: group7
+    400050: group8
+    400052: group9
+    400054: ikHandle1
+    400056: ikHandle2
+    400058: ikHandle3
+    400060: ikHandle4
+    400062: joint13
+    400064: joint18
+    400066: joint19
+    400068: joint2
+    400070: joint3
+    400072: joint32
+    400074: joint33
+    400076: joint33 1
+    400078: joint34
+    400080: joint34 1
+    400082: joint35
+    400084: joint35 1
+    400086: joint38
+    400088: joint4
+    400090: joint40
+    400092: joint45
+    400094: joint47
+    400096: joint49
+    400098: joint51
+    400100: joint52
+    400102: joint54
+    400104: joint55
+    400106: joint55 1
+    400108: joint56
+    400110: joint56 1
+    400112: joint57
+    400114: joint7
+    400116: nurbsCircle1
+    400118: nurbsCircle1 1
+    400120: nurbsCircle1 10
+    400122: nurbsCircle1 11
+    400124: nurbsCircle1 12
+    400126: nurbsCircle1 13
+    400128: nurbsCircle1 14
+    400130: nurbsCircle1 15
+    400132: nurbsCircle1 16
+    400134: nurbsCircle1 2
+    400136: nurbsCircle1 3
+    400138: nurbsCircle1 4
+    400140: nurbsCircle1 5
+    400142: nurbsCircle1 6
+    400144: nurbsCircle1 7
+    400146: nurbsCircle1 8
+    400148: nurbsCircle1 9
+    400150: nurbsCircle2
+    400152: nurbsCircle4
+    400154: polySurface100
+    400156: polySurface101
+    400158: polySurface102
+    400160: polySurface103
+    400162: polySurface104
+    400164: polySurface105
+    400166: polySurface106
+    400168: polySurface107
+    400170: polySurface108
+    400172: polySurface109
+    400174: polySurface110
+    400176: polySurface111
+    400178: polySurface112
+    400180: polySurface113
+    400182: polySurface114
+    400184: polySurface115
+    400186: polySurface55
+    400188: polySurface56
+    400190: polySurface57
+    400192: polySurface65
+    400194: polySurface66
+    400196: polySurface69
+    400198: polySurface70
+    400200: polySurface85
+    400202: polySurface91
+    400204: polySurface95
+    400206: polySurface97
+    400208: polySurface98
+    400210: Sinornithoides
+    400212: //RootNode
+    2300000: polySurface100
+    2300002: polySurface101
+    2300004: polySurface102
+    2300006: polySurface103
+    2300008: polySurface104
+    2300010: polySurface105
+    2300012: polySurface106
+    2300014: polySurface107
+    2300016: polySurface108
+    2300018: polySurface109
+    2300020: polySurface110
+    2300022: polySurface111
+    2300024: polySurface112
+    2300026: polySurface113
+    2300028: polySurface114
+    2300030: polySurface115
+    2300032: polySurface55
+    2300034: polySurface56
+    2300036: polySurface57
+    2300038: polySurface65
+    2300040: polySurface66
+    2300042: polySurface69
+    2300044: polySurface70
+    2300046: polySurface85
+    2300048: polySurface91
+    2300050: polySurface95
+    2300052: polySurface97
+    2300054: polySurface98
+    3300000: polySurface100
+    3300002: polySurface101
+    3300004: polySurface102
+    3300006: polySurface103
+    3300008: polySurface104
+    3300010: polySurface105
+    3300012: polySurface106
+    3300014: polySurface107
+    3300016: polySurface108
+    3300018: polySurface109
+    3300020: polySurface110
+    3300022: polySurface111
+    3300024: polySurface112
+    3300026: polySurface113
+    3300028: polySurface114
+    3300030: polySurface115
+    3300032: polySurface55
+    3300034: polySurface56
+    3300036: polySurface57
+    3300038: polySurface65
+    3300040: polySurface66
+    3300042: polySurface69
+    3300044: polySurface70
+    3300046: polySurface85
+    3300048: polySurface91
+    3300050: polySurface95
+    3300052: polySurface97
+    3300054: polySurface98
+    4300000: polySurface69
+    4300002: polySurface55
+    4300004: polySurface56
+    4300006: polySurface57
+    4300008: polySurface65
+    4300010: polySurface66
+    4300012: polySurface70
+    4300014: polySurface85
+    4300016: polySurface91
+    4300018: polySurface95
+    4300020: polySurface97
+    4300022: polySurface98
+    4300024: polySurface100
+    4300026: polySurface101
+    4300028: polySurface102
+    4300030: polySurface103
+    4300032: polySurface104
+    4300034: polySurface105
+    4300036: polySurface106
+    4300038: polySurface107
+    4300040: polySurface108
+    4300042: polySurface109
+    4300044: polySurface110
+    4300046: polySurface111
+    4300048: polySurface112
+    4300050: polySurface113
+    4300052: polySurface114
+    4300054: polySurface115
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: Sinornithoides
+        weight: 1
+      - path: Sinornithoides/Core_Jnt
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint4
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint4/joint7
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint4/joint7/joint13
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint4/joint7/joint13/joint18
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint4/joint7/joint13/joint18/joint45
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint4/joint7/joint13/joint18/joint45/joint47
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint4/joint7/joint13/joint18/joint45/joint47/joint49
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint4/joint7/joint13/joint18/joint45/joint47/joint49/joint51
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint32
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint32/joint33
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint32/joint33/joint34
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint52
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint52/joint33 1
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint52/joint33 1/joint34 1
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint2/joint3/joint52/joint33 1/joint34 1/joint35
+          1
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint19
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint19/joint38
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint19/joint38/joint40
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint54
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint54/joint55
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint54/joint55/joint56
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint57
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint57/joint55 1
+        weight: 1
+      - path: Sinornithoides/Core_Jnt/joint57/joint55 1/joint56 1
+        weight: 1
+      - path: Sinornithoides/Global
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group2
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group2/nurbsCircle1
+          2
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group2/nurbsCircle1
+          2/group15
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group2/nurbsCircle1
+          2/group15/nurbsCircle1 4
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group2/nurbsCircle1
+          2/group15/nurbsCircle1 4/group16
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group2/nurbsCircle1
+          2/group15/nurbsCircle1 4/group16/nurbsCircle1 6
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10/nurbsCircle1 12
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10/nurbsCircle1 12/group11
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10/nurbsCircle1 12/group11/nurbsCircle1 13
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10/nurbsCircle1 12/group11/nurbsCircle1 13/group12
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10/nurbsCircle1 12/group11/nurbsCircle1 13/group12/nurbsCircle1
+          14
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10/nurbsCircle1 12/group11/nurbsCircle1 13/group12/nurbsCircle1
+          14/group13
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10/nurbsCircle1 12/group11/nurbsCircle1 13/group12/nurbsCircle1
+          14/group13/nurbsCircle1 15
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10/nurbsCircle1 12/group11/nurbsCircle1 13/group12/nurbsCircle1
+          14/group13/nurbsCircle1 15/group14
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group7/nurbsCircle1 9/group8/nurbsCircle1 10/group9/nurbsCircle1
+          11/group10/nurbsCircle1 12/group11/nurbsCircle1 13/group12/nurbsCircle1
+          14/group13/nurbsCircle1 15/group14/nurbsCircle1 16
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group23
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group23/nurbsCircle1 7
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group23/nurbsCircle1 7/group25
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group24
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group24/nurbsCircle1 8
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group3/nurbsCircle1
+          3/group6/nurbsCircle1 5/group24/nurbsCircle1 8/group28
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group17
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group17/nurbsCircle1
+          1
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group17/nurbsCircle1
+          1/group18
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group19
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group20
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group20/nurbsCircle2
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group1/nurbsCircle1/group22
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group26
+        weight: 1
+      - path: Sinornithoides/Global/nurbsCircle4/group29
+        weight: 1
+      - path: Sinornithoides/polySurface55
+        weight: 1
+      - path: Sinornithoides/polySurface56
+        weight: 1
+      - path: Sinornithoides/polySurface57
+        weight: 1
+      - path: Sinornithoides/polySurface65
+        weight: 1
+      - path: Sinornithoides/polySurface66
+        weight: 1
+      - path: Sinornithoides/polySurface69
+        weight: 1
+      - path: Sinornithoides/polySurface70
+        weight: 1
+      - path: Sinornithoides/polySurface85
+        weight: 1
+      - path: Sinornithoides/polySurface91
+        weight: 1
+      - path: Sinornithoides/polySurface95
+        weight: 1
+      - path: Sinornithoides/polySurface97
+        weight: 1
+      - path: Sinornithoides/polySurface98
+        weight: 1
+      - path: Sinornithoides/polySurface100
+        weight: 1
+      - path: Sinornithoides/polySurface101
+        weight: 1
+      - path: Sinornithoides/polySurface102
+        weight: 1
+      - path: Sinornithoides/polySurface103
+        weight: 1
+      - path: Sinornithoides/polySurface104
+        weight: 1
+      - path: Sinornithoides/polySurface105
+        weight: 1
+      - path: Sinornithoides/polySurface106
+        weight: 1
+      - path: Sinornithoides/polySurface107
+        weight: 1
+      - path: Sinornithoides/polySurface108
+        weight: 1
+      - path: Sinornithoides/polySurface109
+        weight: 1
+      - path: Sinornithoides/polySurface110
+        weight: 1
+      - path: Sinornithoides/polySurface111
+        weight: 1
+      - path: Sinornithoides/polySurface112
+        weight: 1
+      - path: Sinornithoides/polySurface113
+        weight: 1
+      - path: Sinornithoides/polySurface114
+        weight: 1
+      - path: Sinornithoides/polySurface115
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
