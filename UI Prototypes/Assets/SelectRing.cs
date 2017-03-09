@@ -21,29 +21,43 @@ public class SelectRing : MonoBehaviour
 
 	void Update () 
 	{
-		if (Input.GetButton ("Fire1"))
+		if (Input.GetButtonDown ("Fire1"))
+		{
+			StopAllCoroutines ();
 			StartCoroutine (Fill ());
-		else if (image.fillAmount > 0)
+		}
+		else if (Input.GetButtonUp ("Fire1")) 
+		{
+			StopAllCoroutines ();
 			StartCoroutine (Unfill ());
+		}
 	}
 
 	IEnumerator Fill()
 	{
 		yield return new WaitForEndOfFrame ();
-		image.fillAmount += fillAdd;	
 
-		if (image.fillAmount == 1)
+		while (image.fillAmount < 1)
 		{
-			if (passClick != null)
-				passClick (image.fillAmount);
-			image.fillAmount = 0;
+			image.fillAmount += fillAdd;
+			yield return new WaitForSeconds (fillAdd);
 		}
+	
+		if (passClick != null)
+			passClick (image.fillAmount);
+		image.fillAmount = 0;
 	}
 
 	IEnumerator Unfill()
 	{
 		yield return new WaitForEndOfFrame ();
-		image.fillAmount -= fillSubtract;
+
+		while(image.fillAmount > 0)
+		{
+			image.fillAmount -= fillSubtract;
+			yield return new WaitForSeconds (fillSubtract);
+		}
+
 		if (image.fillAmount < 0)
 			image.fillAmount = 0;
 	}

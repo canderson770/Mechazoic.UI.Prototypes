@@ -9,10 +9,30 @@ public class MainMenuButton : MonoBehaviour
 	float clickAmount;
 	public float distance;
 
-	void Start () 
+	GameObject play;
+	GameObject profile;
+	GameObject options;
+	GameObject quit;
+	GameObject optionsPanel;
+	GameObject warning;
+
+	void Awake () 
 	{
-		normalPosition = transform.position;
+		play = GameObject.Find ("Play");
+		profile = GameObject.Find ("PlayerProfile");
+		options = GameObject.Find ("Options");
+		quit = GameObject.Find ("Quit");
+		optionsPanel = GameObject.Find ("OptionsPanel");
+		warning = GameObject.Find ("Warning");
+	}
+
+	void Start()
+	{
 		SelectRing.passClick += Clicked;
+		normalPosition = transform.position;
+
+		OnOff (true);
+		warning.SetActive (false);
 	}
 
 	void OnTriggerEnter(Collider coll)
@@ -37,10 +57,13 @@ public class MainMenuButton : MonoBehaviour
 			SceneManager.LoadScene(scene + 1, LoadSceneMode.Single);
 			break;
 		case "PlayerProfile":
-			
+			StartCoroutine (Warning());
 			break;
 		case "Options":
-			
+			OnOff (false);
+			break;
+		case "OptionsPanel":
+			OnOff (true);
 			break;
 		case "Quit":
 			#if UNITY_EDITOR
@@ -48,12 +71,27 @@ public class MainMenuButton : MonoBehaviour
 			#endif
 			Application.Quit();
 			break;
-		case "":
-			break;
 		default:
 			break;
 		}
-		print("click");
-		print (_amount);
+	}
+
+	void OnOff(bool _bool)
+	{
+		play.SetActive (_bool);
+		profile.SetActive (_bool);
+		options.SetActive (_bool);
+		quit.SetActive (_bool);
+		optionsPanel.SetActive (!_bool);
+
+		transform.position = normalPosition;
+		currentButton = "";
+	}
+
+	IEnumerator Warning()
+	{
+		warning.SetActive (true);
+		yield return new WaitForSeconds (.7f);
+		warning.SetActive (false);
 	}
 }
