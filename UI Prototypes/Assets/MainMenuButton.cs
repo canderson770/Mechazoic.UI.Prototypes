@@ -1,27 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 using UnityEngine.SceneManagement;
 
 public class MainMenuButton : MonoBehaviour 
 {
+	public static Action<bool> overButton;
+
 	Vector3 normalPosition;
 	string currentButton;
 	float clickAmount;
 	public float distance;
 
-	GameObject play;
-	GameObject profile;
-	GameObject options;
-	GameObject quit;
+	GameObject menu;
 	GameObject optionsPanel;
 	GameObject warning;
 
 	void Awake () 
 	{
-		play = GameObject.Find ("Play");
-		profile = GameObject.Find ("PlayerProfile");
-		options = GameObject.Find ("Options");
-		quit = GameObject.Find ("Quit");
+		menu = GameObject.Find ("MainButtons");
 		optionsPanel = GameObject.Find ("OptionsPanel");
 		warning = GameObject.Find ("Warning");
 	}
@@ -31,21 +28,28 @@ public class MainMenuButton : MonoBehaviour
 		SelectRing.passClick += Clicked;
 		normalPosition = transform.position;
 
-		OnOff (true);
+		menu.SetActive (true);
 		warning.SetActive (false);
+		optionsPanel.SetActive (false);
 	}
 
 	void OnTriggerEnter(Collider coll)
 	{
 		transform.position = Vector3.MoveTowards(normalPosition, Camera.main.transform.position, distance);
 		currentButton = gameObject.name;
-		print (currentButton);
+//		print (currentButton);
+
+//		if (overButton != null)
+//			overButton (true);
 	}
 
 	void OnTriggerExit()
 	{
 		transform.position = normalPosition;
 		currentButton = "";
+
+//		if (overButton != null)
+//			overButton (false);
 	}
 
 	void Clicked(float _amount)
@@ -61,6 +65,7 @@ public class MainMenuButton : MonoBehaviour
 			break;
 		case "Options":
 			OnOff (false);
+			optionsPanel.SetActive (true);
 			break;
 		case "OptionsPanel":
 			OnOff (true);
@@ -78,10 +83,7 @@ public class MainMenuButton : MonoBehaviour
 
 	void OnOff(bool _bool)
 	{
-		play.SetActive (_bool);
-		profile.SetActive (_bool);
-		options.SetActive (_bool);
-		quit.SetActive (_bool);
+		menu.SetActive (_bool);
 		optionsPanel.SetActive (!_bool);
 
 		transform.position = normalPosition;
@@ -91,7 +93,7 @@ public class MainMenuButton : MonoBehaviour
 	IEnumerator Warning()
 	{
 		warning.SetActive (true);
-		yield return new WaitForSeconds (.7f);
+		yield return new WaitForSeconds (1);
 		warning.SetActive (false);
 	}
 }

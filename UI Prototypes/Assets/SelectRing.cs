@@ -8,6 +8,7 @@ public class SelectRing : MonoBehaviour
 {
 	Image image;
 
+	public float wait;
 	public float fillAdd;
 	public float fillSubtract;
 
@@ -17,6 +18,8 @@ public class SelectRing : MonoBehaviour
 	{
 		image = GetComponent<Image> ();
 		image.fillAmount = 0;
+
+		MainMenuButton.overButton += FillOrUnfill;
 	}
 
 	void Update () 
@@ -32,10 +35,24 @@ public class SelectRing : MonoBehaviour
 			StartCoroutine (Unfill ());
 		}
 	}
+		
+	void FillOrUnfill(bool _bool)
+	{
+		if (_bool)
+		{
+			StopAllCoroutines ();
+			StartCoroutine (Fill ());
+		}
+		else
+		{
+			StopAllCoroutines ();
+			StartCoroutine (Unfill ());
+		}
+	}
 
 	IEnumerator Fill()
 	{
-		yield return new WaitForEndOfFrame ();
+		yield return new WaitForSeconds(wait);
 
 		while (image.fillAmount < 1)
 		{

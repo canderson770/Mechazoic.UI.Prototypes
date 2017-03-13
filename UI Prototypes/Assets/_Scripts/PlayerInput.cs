@@ -14,7 +14,7 @@ public class PlayerInput : MonoBehaviour
 		if (Input.GetKeyDown (KeyCode.Return))
 		{
 			int scene = SceneManager.GetActiveScene().buildIndex;
-			SceneManager.LoadScene(scene, LoadSceneMode.Single);
+			SceneManager.LoadScene(scene + 1, LoadSceneMode.Single);
 		}
 //		if (Input.GetKeyDown (KeyCode.R)) 
 //		{
