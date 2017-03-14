@@ -28,28 +28,31 @@ public class MainMenuButton : MonoBehaviour
 		SelectRing.passClick += Clicked;
 		normalPosition = transform.position;
 
-		menu.SetActive (true);
-		warning.SetActive (false);
-		optionsPanel.SetActive (false);
+		StartCoroutine(TurnOff(true));
 	}
 
 	void OnTriggerEnter(Collider coll)
 	{
 		transform.position = Vector3.MoveTowards(normalPosition, Camera.main.transform.position, distance);
 		currentButton = gameObject.name;
-//		print (currentButton);
 
-//		if (overButton != null)
-//			overButton (true);
+		if (overButton != null)
+			overButton (true);
 	}
 
 	void OnTriggerExit()
 	{
+		OnTriggerExitCopy ();
+	}
+
+
+	void OnTriggerExitCopy()
+	{
 		transform.position = normalPosition;
 		currentButton = "";
 
-//		if (overButton != null)
-//			overButton (false);
+		if (overButton != null)
+			overButton (false);
 	}
 
 	void Clicked(float _amount)
@@ -64,10 +67,10 @@ public class MainMenuButton : MonoBehaviour
 			StartCoroutine (Warning());
 			break;
 		case "Options":
+			OnTriggerExitCopy ();
 			OnOff (false);
-			optionsPanel.SetActive (true);
 			break;
-		case "OptionsPanel":
+		case "Back":
 			OnOff (true);
 			break;
 		case "Quit":
@@ -95,5 +98,12 @@ public class MainMenuButton : MonoBehaviour
 		warning.SetActive (true);
 		yield return new WaitForSeconds (1);
 		warning.SetActive (false);
+	}
+
+	IEnumerator TurnOff(bool _b)
+	{
+		yield return new WaitForEndOfFrame();
+		warning.SetActive (false);
+		OnOff (_b);
 	}
 }

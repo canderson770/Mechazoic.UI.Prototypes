@@ -9,7 +9,9 @@ public class SelectRing : MonoBehaviour
 	Image image;
 
 	public float wait;
+	[Range (0,1)]
 	public float fillAdd;
+	[Range (0,1)]
 	public float fillSubtract;
 
 	public static Action<float> passClick;
@@ -22,19 +24,19 @@ public class SelectRing : MonoBehaviour
 		MainMenuButton.overButton += FillOrUnfill;
 	}
 
-	void Update () 
-	{
-		if (Input.GetButtonDown ("Fire1"))
-		{
-			StopAllCoroutines ();
-			StartCoroutine (Fill ());
-		}
-		else if (Input.GetButtonUp ("Fire1")) 
-		{
-			StopAllCoroutines ();
-			StartCoroutine (Unfill ());
-		}
-	}
+//	void Update () 
+//	{
+//		if (Input.GetButtonDown ("Fire1"))
+//		{
+//			StopAllCoroutines ();
+//			StartCoroutine (Fill ());
+//		}
+//		else if (Input.GetButtonUp ("Fire1")) 
+//		{
+//			StopAllCoroutines ();
+//			StartCoroutine (Unfill ());
+//		}
+//	}
 		
 	void FillOrUnfill(bool _bool)
 	{

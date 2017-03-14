@@ -71,8 +71,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012950568300}
-  - 64: {fileID: 64000013015683006}
   - 114: {fileID: 114000011069393694}
+  - 65: {fileID: 65000014247275988}
   m_Layer: 10
   m_Name: PlayerProfile
   m_TagString: Untagged
@@ -172,8 +172,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011120880518}
-  - 64: {fileID: 64000011052226284}
   - 114: {fileID: 114000012966677030}
+  - 65: {fileID: 65000010765263712}
   m_Layer: 10
   m_Name: Play
   m_TagString: Untagged
@@ -207,8 +207,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011728444306}
-  - 64: {fileID: 64000012104358878}
   - 114: {fileID: 114000013977195740}
+  - 65: {fileID: 65000011684268596}
   m_Layer: 10
   m_Name: Options
   m_TagString: Untagged
@@ -224,8 +224,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011882639516}
-  - 64: {fileID: 64000011342890206}
   - 114: {fileID: 114000013792829070}
+  - 65: {fileID: 65000011027664142}
   m_Layer: 10
   m_Name: Quit
   m_TagString: Untagged
@@ -375,8 +375,8 @@ Transform:
   - {fileID: 224000010899386936}
   m_Father: {fileID: 4000010383035790}
   m_RootOrder: 1
---- !u!64 &64000011052226284
-MeshCollider:
+--- !u!65 &65000010765263712
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -385,10 +385,10 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64000011342890206
-MeshCollider:
+  m_Size: {x: 1, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65000011027664142
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -397,10 +397,10 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64000012104358878
-MeshCollider:
+  m_Size: {x: 1, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65000011684268596
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -409,10 +409,10 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64000013015683006
-MeshCollider:
+  m_Size: {x: 1, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65000014247275988
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -421,8 +421,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  m_Size: {x: 1, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114000010090391674
 MonoBehaviour:
   m_ObjectHideFlags: 1
