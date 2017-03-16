@@ -6,13 +6,12 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: HoloParticles
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: GUILogo
+  m_Shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
   m_LightmapFlags: 1
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -47,15 +46,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
-        name: _Fresnel
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: ed00ecc6501731946936b5e7af9af382, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -76,43 +69,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _ReflectionTex
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _ReflectiveColor
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _RefractionTex
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _SpecGlossMap
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _ToonShade
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: PixelSnap
-      second: 0
-    - first:
-        name: _BumpAmt
-      second: 10
     - first:
         name: _BumpScale
       second: 1
@@ -135,9 +92,6 @@ Material:
         name: _GlossyReflections
       second: 1
     - first:
-        name: _InvFade
-      second: 1
-    - first:
         name: _Metallic
       second: 0
     - first:
@@ -150,12 +104,6 @@ Material:
         name: _Parallax
       second: 0.02
     - first:
-        name: _ReflDistort
-      second: 0.44
-    - first:
-        name: _RefrDistort
-      second: 0.4
-    - first:
         name: _SmoothnessTextureChannel
       second: 0
     - first:
@@ -165,39 +113,15 @@ Material:
         name: _SrcBlend
       second: 1
     - first:
-        name: _Thickness
-      second: 1
-    - first:
         name: _UVSec
       second: 0
-    - first:
-        name: _WaveScale
-      second: 0.063
     - first:
         name: _ZWrite
       second: 0
     m_Colors:
     - first:
-        name: WaveSpeed
-      second: {r: 19, g: 9, b: -16, a: -7}
-    - first:
-        name: _BaseScale
-      second: {r: 1, g: 1, b: 1, a: 0}
-    - first:
         name: _Color
-      second: {r: 0, g: 1, b: 1, a: 0}
+      second: {r: 1, g: 1, b: 1, a: 1}
     - first:
         name: _EmissionColor
-      second: {r: 0.15419552, g: 0.45588237, b: 0.45588237, a: 1}
-    - first:
-        name: _HorizonColor
-      second: {r: 0.172, g: 0.463, b: 0.435, a: 1}
-    - first:
-        name: _RefrColor
-      second: {r: 0.34, g: 0.85, b: 0.92, a: 1}
-    - first:
-        name: _SpecColor
-      second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - first:
-        name: _TintColor
-      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      second: {r: 0, g: 0, b: 0, a: 1}
