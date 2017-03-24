@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: b288ec5bea33e104e941660006a7ef97
+timeCreated: 1487318230
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Animantarx
+    100002: //RootNode
+    100004: B_L_Foot
+    100006: B_L_Foot_Ctrl
+    100008: B_L_Foot_Grp
+    100010: B_L_Foot_Jnt
+    100012: B_L_Foot_Rotator_Ctrl
+    100014: B_L_Foot_Rotator_Grp
+    100016: B_L_Foot_Rotator_Jnt
+    100018: B_L_Knee
+    100020: B_L_Knee_Ctrl
+    100022: B_L_Knee_Grp
+    100024: B_L_Knee_Jnt
+    100026: B_L_Leg
+    100028: B_L_Thigh
+    100030: B_L_Thigh1
+    100032: B_L_Thigh_Ctrl
+    100034: B_L_Thigh_Grp
+    100036: B_L_Thigh_Jnt
+    100038: B_L_Thigh_Jnt_ctrl
+    100040: B_L_Thigh_Jnt_ctrl_Grp
+    100042: B_L_Thigh_Jnt_IK_Handle
+    100044: B_L_Thigh_Jnt_poleVector_ctrl
+    100046: B_L_Thigh_Jnt_poleVector_ctrl_Grp
+    100048: B_R_Foot
+    100050: B_R_Foot_Ctrl
+    100052: B_R_Foot_Grp
+    100054: B_R_Foot_Jnt
+    100056: B_R_Foot_Rotator_Ctrl
+    100058: B_R_Foot_Rotator_Grp
+    100060: B_R_Foot_Rotator_Jnt
+    100062: B_R_Knee
+    100064: B_R_Knee_Ctrl
+    100066: B_R_Knee_Grp
+    100068: B_R_Knee_Jnt
+    100070: B_R_Leg
+    100072: B_R_Thigh
+    100074: B_R_Thigh1
+    100076: B_R_Thigh_Ctrl
+    100078: B_R_Thigh_Grp
+    100080: B_R_Thigh_Jnt
+    100082: B_R_Thigh_Jnt_ctrl
+    100084: B_R_Thigh_Jnt_ctrl_Grp
+    100086: B_R_Thigh_Jnt_IK_Handle
+    100088: B_R_Thigh_Jnt_poleVector_ctrl
+    100090: B_R_Thigh_Jnt_poleVector_ctrl_Grp
+    100092: back
+    100094: Back_of_Head
+    100096: bottom
+    100098: Cheeks
+    100100: CoG
+    100102: CoG_Ctrl
+    100104: CoG_Grp
+    100106: Controls
+    100108: Deformers
+    100110: F_L_Foot
+    100112: F_L_Foot_Ctrl
+    100114: F_L_Foot_Grp
+    100116: F_L_Foot_Jnt
+    100118: F_L_Foot_Rotator_Ctl
+    100120: F_L_Foot_Rotator_Grp
+    100122: F_L_Foot_Rotator_Jnt
+    100124: F_L_Knee
+    100126: F_L_Knee_Ctrl
+    100128: F_L_Knee_Grp
+    100130: F_L_Knee_Jnt
+    100132: F_L_Leg
+    100134: F_L_Thigh
+    100136: F_L_Thigh1
+    100138: F_L_Thigh_Ctrl
+    100140: F_L_Thigh_Grp
+    100142: F_L_Thigh_Jnt
+    100144: F_L_Thigh_Jnt_ctrl
+    100146: F_L_Thigh_Jnt_ctrl_Grp
+    100148: F_L_Thigh_Jnt_IK_Handle
+    100150: F_L_Thigh_Jnt_poleVector_ctrl
+    100152: F_L_Thigh_Jnt_poleVector_ctrl_Grp
+    100154: F_R_Foot
+    100156: F_R_Foot_Ctrl
+    100158: F_R_Foot_Grp
+    100160: F_R_Foot_Jnt
+    100162: F_R_Foot_Rotator_Ctl
+    100164: F_R_Foot_Rotator_Grp
+    100166: F_R_Foot_Rotator_Jnt
+    100168: F_R_Knee
+    100170: F_R_Knee_Ctrl
+    100172: F_R_Knee_Grp
+    100174: F_R_Knee_Jnt
+    100176: F_R_Leg
+    100178: F_R_Thigh
+    100180: F_R_Thigh2
+    100182: F_R_Thigh_Ctrl
+    100184: F_R_Thigh_Grp
+    100186: F_R_Thigh_Jnt
+    100188: F_R_Thigh_Jnt_ctrl
+    100190: F_R_Thigh_Jnt_ctrl_Grp
+    100192: F_R_Thigh_Jnt_IK_Handle
+    100194: F_R_Thigh_Jnt_poleVector_ctrl
+    100196: F_R_Thigh_Jnt_poleVector_ctrl_Grp
+    100198: Geometery
+    100200: Head
+    100202: Head_Ctrl
+    100204: Head_Grp
+    100206: Head_Jnt
+    100208: IK_Ctrl_Grp
+    100210: IK_Ctrl_Grp1
+    100212: IK_Ctrl_Grp2
+    100214: IK_Ctrl_Grp3
+    100216: imagePlane3
+    100218: Jaw
+    100220: Jaw_Ctrl
+    100222: Jaw_Grp
+    100224: Jaw_Jnt
+    100226: L_Spike_1
+    100228: L_Spike_2
+    100230: L_Spike_3
+    100232: L_Spike_4
+    100234: left
+    100236: Mid_Section1
+    100238: Mid_Section1 1
+    100240: Mid_Section2
+    100242: Mid_Section3
+    100244: Mid_Section3 1
+    100246: Mid_Section4
+    100248: MidSection
+    100250: Neck
+    100252: Neck1
+    100254: Neck1_Ctrl
+    100256: Neck1_Grp
+    100258: Neck1_Jnt
+    100260: Neck2
+    100262: Neck2_Ctrl
+    100264: Neck2_Grp
+    100266: Neck2_Jnt
+    100268: Neck3
+    100270: R_Spike_1
+    100272: R_Spike_2
+    100274: R_Spike_3
+    100276: R_Spike_4
+    100278: Root_Ctrl
+    100280: Root_Grp
+    100282: Skeleton
+    100284: Spine1_Ctrl
+    100286: Spine1_Grp
+    100288: Spine1_Jnt
+    100290: Spine2_Ctrl
+    100292: Spine2_Grp
+    100294: Spine2_Jnt
+    100296: Spine4_Ctrl
+    100298: Spine4_Grp
+    100300: Spine4_Jnt
+    100302: Tail
+    100304: Tail1
+    100306: Tail10
+    100308: Tail10_Ctrl
+    100310: Tail10_Grp
+    100312: Tail10_Jnt
+    100314: Tail1_Ctrl
+    100316: Tail1_Grp
+    100318: Tail1_Jnt
+    100320: Tail2
+    100322: Tail2_Ctrl
+    100324: Tail2_Grp
+    100326: Tail2_Jnt
+    100328: Tail3
+    100330: Tail3_Ctrl
+    100332: Tail3_Grp
+    100334: Tail3_Jnt
+    100336: Tail4
+    100338: Tail4_Ctrl
+    100340: Tail4_Grp
+    100342: Tail4_Jnt
+    100344: Tail5
+    100346: Tail5_Ctrl
+    100348: Tail5_Grp
+    100350: Tail5_Jnt
+    100352: Tail6
+    100354: Tail6_Ctrl
+    100356: Tail6_Grp
+    100358: Tail6_Jnt
+    100360: Tail7
+    100362: Tail7_Ctrl
+    100364: Tail7_Grp
+    100366: Tail7_Jnt
+    100368: Tail8
+    100370: Tail8_Ctrl
+    100372: Tail8_Grp
+    100374: Tail8_Jnt
+    100376: Tail9
+    100378: Tail9_Ctrl
+    100380: Tail9_Grp
+    100382: Tail9_Jnt
+    100384: Top_Jaw
+    400000: Animantarx
+    400002: //RootNode
+    400004: B_L_Foot
+    400006: B_L_Foot_Ctrl
+    400008: B_L_Foot_Grp
+    400010: B_L_Foot_Jnt
+    400012: B_L_Foot_Rotator_Ctrl
+    400014: B_L_Foot_Rotator_Grp
+    400016: B_L_Foot_Rotator_Jnt
+    400018: B_L_Knee
+    400020: B_L_Knee_Ctrl
+    400022: B_L_Knee_Grp
+    400024: B_L_Knee_Jnt
+    400026: B_L_Leg
+    400028: B_L_Thigh
+    400030: B_L_Thigh1
+    400032: B_L_Thigh_Ctrl
+    400034: B_L_Thigh_Grp
+    400036: B_L_Thigh_Jnt
+    400038: B_L_Thigh_Jnt_ctrl
+    400040: B_L_Thigh_Jnt_ctrl_Grp
+    400042: B_L_Thigh_Jnt_IK_Handle
+    400044: B_L_Thigh_Jnt_poleVector_ctrl
+    400046: B_L_Thigh_Jnt_poleVector_ctrl_Grp
+    400048: B_R_Foot
+    400050: B_R_Foot_Ctrl
+    400052: B_R_Foot_Grp
+    400054: B_R_Foot_Jnt
+    400056: B_R_Foot_Rotator_Ctrl
+    400058: B_R_Foot_Rotator_Grp
+    400060: B_R_Foot_Rotator_Jnt
+    400062: B_R_Knee
+    400064: B_R_Knee_Ctrl
+    400066: B_R_Knee_Grp
+    400068: B_R_Knee_Jnt
+    400070: B_R_Leg
+    400072: B_R_Thigh
+    400074: B_R_Thigh1
+    400076: B_R_Thigh_Ctrl
+    400078: B_R_Thigh_Grp
+    400080: B_R_Thigh_Jnt
+    400082: B_R_Thigh_Jnt_ctrl
+    400084: B_R_Thigh_Jnt_ctrl_Grp
+    400086: B_R_Thigh_Jnt_IK_Handle
+    400088: B_R_Thigh_Jnt_poleVector_ctrl
+    400090: B_R_Thigh_Jnt_poleVector_ctrl_Grp
+    400092: back
+    400094: Back_of_Head
+    400096: bottom
+    400098: Cheeks
+    400100: CoG
+    400102: CoG_Ctrl
+    400104: CoG_Grp
+    400106: Controls
+    400108: Deformers
+    400110: F_L_Foot
+    400112: F_L_Foot_Ctrl
+    400114: F_L_Foot_Grp
+    400116: F_L_Foot_Jnt
+    400118: F_L_Foot_Rotator_Ctl
+    400120: F_L_Foot_Rotator_Grp
+    400122: F_L_Foot_Rotator_Jnt
+    400124: F_L_Knee
+    400126: F_L_Knee_Ctrl
+    400128: F_L_Knee_Grp
+    400130: F_L_Knee_Jnt
+    400132: F_L_Leg
+    400134: F_L_Thigh
+    400136: F_L_Thigh1
+    400138: F_L_Thigh_Ctrl
+    400140: F_L_Thigh_Grp
+    400142: F_L_Thigh_Jnt
+    400144: F_L_Thigh_Jnt_ctrl
+    400146: F_L_Thigh_Jnt_ctrl_Grp
+    400148: F_L_Thigh_Jnt_IK_Handle
+    400150: F_L_Thigh_Jnt_poleVector_ctrl
+    400152: F_L_Thigh_Jnt_poleVector_ctrl_Grp
+    400154: F_R_Foot
+    400156: F_R_Foot_Ctrl
+    400158: F_R_Foot_Grp
+    400160: F_R_Foot_Jnt
+    400162: F_R_Foot_Rotator_Ctl
+    400164: F_R_Foot_Rotator_Grp
+    400166: F_R_Foot_Rotator_Jnt
+    400168: F_R_Knee
+    400170: F_R_Knee_Ctrl
+    400172: F_R_Knee_Grp
+    400174: F_R_Knee_Jnt
+    400176: F_R_Leg
+    400178: F_R_Thigh
+    400180: F_R_Thigh2
+    400182: F_R_Thigh_Ctrl
+    400184: F_R_Thigh_Grp
+    400186: F_R_Thigh_Jnt
+    400188: F_R_Thigh_Jnt_ctrl
+    400190: F_R_Thigh_Jnt_ctrl_Grp
+    400192: F_R_Thigh_Jnt_IK_Handle
+    400194: F_R_Thigh_Jnt_poleVector_ctrl
+    400196: F_R_Thigh_Jnt_poleVector_ctrl_Grp
+    400198: Geometery
+    400200: Head
+    400202: Head_Ctrl
+    400204: Head_Grp
+    400206: Head_Jnt
+    400208: IK_Ctrl_Grp
+    400210: IK_Ctrl_Grp1
+    400212: IK_Ctrl_Grp2
+    400214: IK_Ctrl_Grp3
+    400216: imagePlane3
+    400218: Jaw
+    400220: Jaw_Ctrl
+    400222: Jaw_Grp
+    400224: Jaw_Jnt
+    400226: L_Spike_1
+    400228: L_Spike_2
+    400230: L_Spike_3
+    400232: L_Spike_4
+    400234: left
+    400236: Mid_Section1
+    400238: Mid_Section1 1
+    400240: Mid_Section2
+    400242: Mid_Section3
+    400244: Mid_Section3 1
+    400246: Mid_Section4
+    400248: MidSection
+    400250: Neck
+    400252: Neck1
+    400254: Neck1_Ctrl
+    400256: Neck1_Grp
+    400258: Neck1_Jnt
+    400260: Neck2
+    400262: Neck2_Ctrl
+    400264: Neck2_Grp
+    400266: Neck2_Jnt
+    400268: Neck3
+    400270: R_Spike_1
+    400272: R_Spike_2
+    400274: R_Spike_3
+    400276: R_Spike_4
+    400278: Root_Ctrl
+    400280: Root_Grp
+    400282: Skeleton
+    400284: Spine1_Ctrl
+    400286: Spine1_Grp
+    400288: Spine1_Jnt
+    400290: Spine2_Ctrl
+    400292: Spine2_Grp
+    400294: Spine2_Jnt
+    400296: Spine4_Ctrl
+    400298: Spine4_Grp
+    400300: Spine4_Jnt
+    400302: Tail
+    400304: Tail1
+    400306: Tail10
+    400308: Tail10_Ctrl
+    400310: Tail10_Grp
+    400312: Tail10_Jnt
+    400314: Tail1_Ctrl
+    400316: Tail1_Grp
+    400318: Tail1_Jnt
+    400320: Tail2
+    400322: Tail2_Ctrl
+    400324: Tail2_Grp
+    400326: Tail2_Jnt
+    400328: Tail3
+    400330: Tail3_Ctrl
+    400332: Tail3_Grp
+    400334: Tail3_Jnt
+    400336: Tail4
+    400338: Tail4_Ctrl
+    400340: Tail4_Grp
+    400342: Tail4_Jnt
+    400344: Tail5
+    400346: Tail5_Ctrl
+    400348: Tail5_Grp
+    400350: Tail5_Jnt
+    400352: Tail6
+    400354: Tail6_Ctrl
+    400356: Tail6_Grp
+    400358: Tail6_Jnt
+    400360: Tail7
+    400362: Tail7_Ctrl
+    400364: Tail7_Grp
+    400366: Tail7_Jnt
+    400368: Tail8
+    400370: Tail8_Ctrl
+    400372: Tail8_Grp
+    400374: Tail8_Jnt
+    400376: Tail9
+    400378: Tail9_Ctrl
+    400380: Tail9_Grp
+    400382: Tail9_Jnt
+    400384: Top_Jaw
+    2300000: B_L_Foot
+    2300002: B_L_Knee
+    2300004: B_L_Thigh
+    2300006: B_L_Thigh1
+    2300008: B_R_Foot
+    2300010: B_R_Knee
+    2300012: B_R_Thigh
+    2300014: B_R_Thigh1
+    2300016: Back_of_Head
+    2300018: Cheeks
+    2300020: F_L_Foot
+    2300022: F_L_Knee
+    2300024: F_L_Thigh
+    2300026: F_L_Thigh1
+    2300028: F_R_Foot
+    2300030: F_R_Knee
+    2300032: F_R_Thigh
+    2300034: F_R_Thigh2
+    2300036: Jaw
+    2300038: L_Spike_1
+    2300040: L_Spike_2
+    2300042: L_Spike_3
+    2300044: L_Spike_4
+    2300046: Mid_Section1 1
+    2300048: Mid_Section2
+    2300050: Mid_Section3 1
+    2300052: Mid_Section4
+    2300054: Neck1
+    2300056: Neck2
+    2300058: Neck3
+    2300060: R_Spike_1
+    2300062: R_Spike_2
+    2300064: R_Spike_3
+    2300066: R_Spike_4
+    2300068: Tail1
+    2300070: Tail10
+    2300072: Tail2
+    2300074: Tail3
+    2300076: Tail4
+    2300078: Tail5
+    2300080: Tail6
+    2300082: Tail7
+    2300084: Tail8
+    2300086: Tail9
+    2300088: Top_Jaw
+    3300000: B_L_Foot
+    3300002: B_L_Knee
+    3300004: B_L_Thigh
+    3300006: B_L_Thigh1
+    3300008: B_R_Foot
+    3300010: B_R_Knee
+    3300012: B_R_Thigh
+    3300014: B_R_Thigh1
+    3300016: Back_of_Head
+    3300018: Cheeks
+    3300020: F_L_Foot
+    3300022: F_L_Knee
+    3300024: F_L_Thigh
+    3300026: F_L_Thigh1
+    3300028: F_R_Foot
+    3300030: F_R_Knee
+    3300032: F_R_Thigh
+    3300034: F_R_Thigh2
+    3300036: Jaw
+    3300038: L_Spike_1
+    3300040: L_Spike_2
+    3300042: L_Spike_3
+    3300044: L_Spike_4
+    3300046: Mid_Section1 1
+    3300048: Mid_Section2
+    3300050: Mid_Section3 1
+    3300052: Mid_Section4
+    3300054: Neck1
+    3300056: Neck2
+    3300058: Neck3
+    3300060: R_Spike_1
+    3300062: R_Spike_2
+    3300064: R_Spike_3
+    3300066: R_Spike_4
+    3300068: Tail1
+    3300070: Tail10
+    3300072: Tail2
+    3300074: Tail3
+    3300076: Tail4
+    3300078: Tail5
+    3300080: Tail6
+    3300082: Tail7
+    3300084: Tail8
+    3300086: Tail9
+    3300088: Top_Jaw
+    4300000: Cheeks
+    4300002: Back_of_Head
+    4300004: Top_Jaw
+    4300006: Jaw
+    4300008: Neck1
+    4300010: Neck2
+    4300012: L_Spike_1
+    4300014: R_Spike_1
+    4300016: Neck3
+    4300018: L_Spike_2
+    4300020: R_Spike_2
+    4300022: F_L_Thigh
+    4300024: F_L_Thigh1
+    4300026: F_L_Knee
+    4300028: F_L_Foot
+    4300030: F_R_Thigh
+    4300032: F_R_Thigh2
+    4300034: F_R_Knee
+    4300036: F_R_Foot
+    4300038: Mid_Section1
+    4300040: L_Spike_3
+    4300042: R_Spike_3
+    4300044: Mid_Section2
+    4300046: L_Spike_4
+    4300048: R_Spike_4
+    4300050: B_R_Thigh
+    4300052: B_R_Thigh1
+    4300054: B_R_Knee
+    4300056: B_R_Foot
+    4300058: B_L_Thigh
+    4300060: B_L_Thigh1
+    4300062: B_L_Knee
+    4300064: B_L_Foot
+    4300066: Mid_Section3
+    4300068: Mid_Section4
+    4300070: Tail1
+    4300072: Tail2
+    4300074: Tail3
+    4300076: Tail4
+    4300078: Tail5
+    4300080: Tail6
+    4300082: Tail7
+    4300084: Tail8
+    4300086: Tail9
+    4300088: Tail10
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Animantarx
+        weight: 1
+      - path: Animantarx/Controls
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/B_L_Foot_Rotator_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/B_L_Foot_Rotator_Grp/B_L_Foot_Rotator_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/B_R_Foot_Rotator_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/B_R_Foot_Rotator_Grp/B_R_Foot_Rotator_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_L_Thigh_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_L_Thigh_Grp/F_L_Thigh_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_L_Thigh_Grp/F_L_Thigh_Ctrl/F_L_Knee_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_L_Thigh_Grp/F_L_Thigh_Ctrl/F_L_Knee_Grp/F_L_Knee_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_L_Thigh_Grp/F_L_Thigh_Ctrl/F_L_Knee_Grp/F_L_Knee_Ctrl/F_L_Foot_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_L_Thigh_Grp/F_L_Thigh_Ctrl/F_L_Knee_Grp/F_L_Knee_Ctrl/F_L_Foot_Grp/F_L_Foot_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_R_Thigh_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_R_Thigh_Grp/F_R_Thigh_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_R_Thigh_Grp/F_R_Thigh_Ctrl/F_R_Knee_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_R_Thigh_Grp/F_R_Thigh_Ctrl/F_R_Knee_Grp/F_R_Knee_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_R_Thigh_Grp/F_R_Thigh_Ctrl/F_R_Knee_Grp/F_R_Knee_Ctrl/F_R_Foot_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/F_R_Thigh_Grp/F_R_Thigh_Ctrl/F_R_Knee_Grp/F_R_Knee_Ctrl/F_R_Foot_Grp/F_R_Foot_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp/Spine1_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp/Spine1_Ctrl/Neck2_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp/Spine1_Ctrl/Neck2_Grp/Neck2_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp/Spine1_Ctrl/Neck2_Grp/Neck2_Ctrl/Neck1_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp/Spine1_Ctrl/Neck2_Grp/Neck2_Ctrl/Neck1_Grp/Neck1_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp/Spine1_Ctrl/Neck2_Grp/Neck2_Ctrl/Neck1_Grp/Neck1_Ctrl/Head_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp/Spine1_Ctrl/Neck2_Grp/Neck2_Ctrl/Neck1_Grp/Neck1_Ctrl/Head_Grp/Head_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp/Spine1_Ctrl/Neck2_Grp/Neck2_Ctrl/Neck1_Grp/Neck1_Ctrl/Head_Grp/Head_Ctrl/Jaw_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine2_Grp/Spine2_Ctrl/Spine1_Grp/Spine1_Ctrl/Neck2_Grp/Neck2_Ctrl/Neck1_Grp/Neck1_Ctrl/Head_Grp/Head_Ctrl/Jaw_Grp/Jaw_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_L_Thigh_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_L_Thigh_Grp/B_L_Thigh_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_L_Thigh_Grp/B_L_Thigh_Ctrl/B_L_Knee_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_L_Thigh_Grp/B_L_Thigh_Ctrl/B_L_Knee_Grp/B_L_Knee_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_L_Thigh_Grp/B_L_Thigh_Ctrl/B_L_Knee_Grp/B_L_Knee_Ctrl/B_L_Foot_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_L_Thigh_Grp/B_L_Thigh_Ctrl/B_L_Knee_Grp/B_L_Knee_Ctrl/B_L_Foot_Grp/B_L_Foot_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_R_Thigh_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_R_Thigh_Grp/B_R_Thigh_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_R_Thigh_Grp/B_R_Thigh_Ctrl/B_R_Knee_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_R_Thigh_Grp/B_R_Thigh_Ctrl/B_R_Knee_Grp/B_R_Knee_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_R_Thigh_Grp/B_R_Thigh_Ctrl/B_R_Knee_Grp/B_R_Knee_Ctrl/B_R_Foot_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/B_R_Thigh_Grp/B_R_Thigh_Ctrl/B_R_Knee_Grp/B_R_Knee_Ctrl/B_R_Foot_Grp/B_R_Foot_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp/Tail6_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp/Tail6_Ctrl/Tail7_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp/Tail6_Ctrl/Tail7_Grp/Tail7_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp/Tail6_Ctrl/Tail7_Grp/Tail7_Ctrl/Tail8_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp/Tail6_Ctrl/Tail7_Grp/Tail7_Ctrl/Tail8_Grp/Tail8_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp/Tail6_Ctrl/Tail7_Grp/Tail7_Ctrl/Tail8_Grp/Tail8_Ctrl/Tail9_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp/Tail6_Ctrl/Tail7_Grp/Tail7_Ctrl/Tail8_Grp/Tail8_Ctrl/Tail9_Grp/Tail9_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp/Tail6_Ctrl/Tail7_Grp/Tail7_Ctrl/Tail8_Grp/Tail8_Ctrl/Tail9_Grp/Tail9_Ctrl/Tail10_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/CoG_Grp/CoG_Ctrl/Spine4_Grp/Spine4_Ctrl/Tail1_Grp/Tail1_Ctrl/Tail2_Grp/Tail2_Ctrl/Tail3_Grp/Tail3_Ctrl/Tail4_Grp/Tail4_Ctrl/Tail5_Grp/Tail5_Ctrl/Tail6_Grp/Tail6_Ctrl/Tail7_Grp/Tail7_Ctrl/Tail8_Grp/Tail8_Ctrl/Tail9_Grp/Tail9_Ctrl/Tail10_Grp/Tail10_Ctrl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/F_L_Foot_Rotator_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/F_L_Foot_Rotator_Grp/F_L_Foot_Rotator_Ctl
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/F_R_Foot_Rotator_Grp
+        weight: 1
+      - path: Animantarx/Controls/Root_Grp/Root_Ctrl/F_R_Foot_Rotator_Grp/F_R_Foot_Rotator_Ctl
+        weight: 1
+      - path: Animantarx/Deformers
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp/F_L_Thigh_Jnt_ctrl_Grp
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp/F_L_Thigh_Jnt_ctrl_Grp/F_L_Thigh_Jnt_ctrl
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp/F_L_Thigh_Jnt_ctrl_Grp/F_L_Thigh_Jnt_ctrl/F_L_Thigh_Jnt_IK_Handle
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp/F_L_Thigh_Jnt_poleVector_ctrl_Grp
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp/F_L_Thigh_Jnt_poleVector_ctrl_Grp/F_L_Thigh_Jnt_poleVector_ctrl
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp1
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp1/F_R_Thigh_Jnt_ctrl_Grp
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp1/F_R_Thigh_Jnt_ctrl_Grp/F_R_Thigh_Jnt_ctrl
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp1/F_R_Thigh_Jnt_ctrl_Grp/F_R_Thigh_Jnt_ctrl/F_R_Thigh_Jnt_IK_Handle
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp1/F_R_Thigh_Jnt_poleVector_ctrl_Grp
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp1/F_R_Thigh_Jnt_poleVector_ctrl_Grp/F_R_Thigh_Jnt_poleVector_ctrl
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp2
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp2/B_L_Thigh_Jnt_ctrl_Grp
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp2/B_L_Thigh_Jnt_ctrl_Grp/B_L_Thigh_Jnt_ctrl
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp2/B_L_Thigh_Jnt_ctrl_Grp/B_L_Thigh_Jnt_ctrl/B_L_Thigh_Jnt_IK_Handle
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp2/B_L_Thigh_Jnt_poleVector_ctrl_Grp
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp2/B_L_Thigh_Jnt_poleVector_ctrl_Grp/B_L_Thigh_Jnt_poleVector_ctrl
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp3
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp3/B_R_Thigh_Jnt_ctrl_Grp
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp3/B_R_Thigh_Jnt_ctrl_Grp/B_R_Thigh_Jnt_ctrl
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp3/B_R_Thigh_Jnt_ctrl_Grp/B_R_Thigh_Jnt_ctrl/B_R_Thigh_Jnt_IK_Handle
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp3/B_R_Thigh_Jnt_poleVector_ctrl_Grp
+        weight: 1
+      - path: Animantarx/Deformers/IK_Ctrl_Grp3/B_R_Thigh_Jnt_poleVector_ctrl_Grp/B_R_Thigh_Jnt_poleVector_ctrl
+        weight: 1
+      - path: Animantarx/Geometery
+        weight: 1
+      - path: Animantarx/Geometery/Head
+        weight: 1
+      - path: Animantarx/Geometery/Head/Back_of_Head
+        weight: 1
+      - path: Animantarx/Geometery/Head/Cheeks
+        weight: 1
+      - path: Animantarx/Geometery/Head/Jaw
+        weight: 1
+      - path: Animantarx/Geometery/Head/Top_Jaw
+        weight: 1
+      - path: Animantarx/Geometery/MidSection
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_L_Leg
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_L_Leg/F_L_Foot
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_L_Leg/F_L_Knee
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_L_Leg/F_L_Thigh
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_L_Leg/F_L_Thigh/F_L_Thigh1
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_R_Leg
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_R_Leg/F_R_Foot
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_R_Leg/F_R_Knee
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_R_Leg/F_R_Thigh
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/F_R_Leg/F_R_Thigh/F_R_Thigh2
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/Mid_Section1 1
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/Mid_Section1 1/L_Spike_3
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section1/Mid_Section1 1/R_Spike_3
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section2
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section2/L_Spike_4
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section2/R_Spike_4
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_L_Leg
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_L_Leg/B_L_Foot
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_L_Leg/B_L_Knee
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_L_Leg/B_L_Thigh
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_L_Leg/B_L_Thigh/B_L_Thigh1
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_R_Leg
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_R_Leg/B_R_Foot
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_R_Leg/B_R_Knee
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_R_Leg/B_R_Thigh
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/B_R_Leg/B_R_Thigh/B_R_Thigh1
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section3/Mid_Section3 1
+        weight: 1
+      - path: Animantarx/Geometery/MidSection/Mid_Section4
+        weight: 1
+      - path: Animantarx/Geometery/Neck
+        weight: 1
+      - path: Animantarx/Geometery/Neck/Neck1
+        weight: 1
+      - path: Animantarx/Geometery/Neck/Neck2
+        weight: 1
+      - path: Animantarx/Geometery/Neck/Neck2/L_Spike_1
+        weight: 1
+      - path: Animantarx/Geometery/Neck/Neck2/R_Spike_1
+        weight: 1
+      - path: Animantarx/Geometery/Neck/Neck3
+        weight: 1
+      - path: Animantarx/Geometery/Neck/Neck3/L_Spike_2
+        weight: 1
+      - path: Animantarx/Geometery/Neck/Neck3/R_Spike_2
+        weight: 1
+      - path: Animantarx/Geometery/Tail
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail1
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail2
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail3
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail4
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail5
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail6
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail7
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail8
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail9
+        weight: 1
+      - path: Animantarx/Geometery/Tail/Tail10
+        weight: 1
+      - path: Animantarx/Skeleton
+        weight: 1
+      - path: Animantarx/Skeleton/B_L_Foot_Rotator_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/B_R_Foot_Rotator_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/B_L_Thigh_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/B_L_Thigh_Jnt/B_L_Knee_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/B_L_Thigh_Jnt/B_L_Knee_Jnt/B_L_Foot_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/B_R_Thigh_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/B_R_Thigh_Jnt/B_R_Knee_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/B_R_Thigh_Jnt/B_R_Knee_Jnt/B_R_Foot_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/F_L_Thigh_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/F_L_Thigh_Jnt/F_L_Knee_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/F_L_Thigh_Jnt/F_L_Knee_Jnt/F_L_Foot_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/F_R_Thigh_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/F_R_Thigh_Jnt/F_R_Knee_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/F_R_Thigh_Jnt/F_R_Knee_Jnt/F_R_Foot_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine2_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine2_Jnt/Spine1_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine2_Jnt/Spine1_Jnt/Neck2_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine2_Jnt/Spine1_Jnt/Neck2_Jnt/Neck1_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine2_Jnt/Spine1_Jnt/Neck2_Jnt/Neck1_Jnt/Head_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine2_Jnt/Spine1_Jnt/Neck2_Jnt/Neck1_Jnt/Head_Jnt/Jaw_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt/Tail2_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt/Tail2_Jnt/Tail3_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt/Tail2_Jnt/Tail3_Jnt/Tail4_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt/Tail2_Jnt/Tail3_Jnt/Tail4_Jnt/Tail5_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt/Tail2_Jnt/Tail3_Jnt/Tail4_Jnt/Tail5_Jnt/Tail6_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt/Tail2_Jnt/Tail3_Jnt/Tail4_Jnt/Tail5_Jnt/Tail6_Jnt/Tail7_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt/Tail2_Jnt/Tail3_Jnt/Tail4_Jnt/Tail5_Jnt/Tail6_Jnt/Tail7_Jnt/Tail8_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt/Tail2_Jnt/Tail3_Jnt/Tail4_Jnt/Tail5_Jnt/Tail6_Jnt/Tail7_Jnt/Tail8_Jnt/Tail9_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/CoG/Spine4_Jnt/Tail1_Jnt/Tail2_Jnt/Tail3_Jnt/Tail4_Jnt/Tail5_Jnt/Tail6_Jnt/Tail7_Jnt/Tail8_Jnt/Tail9_Jnt/Tail10_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/F_L_Foot_Rotator_Jnt
+        weight: 1
+      - path: Animantarx/Skeleton/F_R_Foot_Rotator_Jnt
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: imagePlane3
+        weight: 1
+      - path: left
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

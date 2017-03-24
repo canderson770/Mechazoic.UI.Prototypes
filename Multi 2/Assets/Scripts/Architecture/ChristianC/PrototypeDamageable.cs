@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class PrototypeDamageable : MonoBehaviour {
 
-    public int maxHealth;
-    public int currentHealth;
+	public float maxHealth;
+    public float currentHealth;
 
     public float regenRate; //Health regenerated per second.
     private float regenCounter; //Do we have enough regened to gave whole ints of health?
 
-    public delegate void OnHealthChange(int current, int max);
+	public delegate void OnHealthChange(float current, float max);
     public OnHealthChange onHealthChange;
 
     public float disableTime = 3f;
@@ -45,7 +45,7 @@ public class PrototypeDamageable : MonoBehaviour {
 
     public void ChangeHealth(int amount) {
         //Hold new health in a temp Clamped variable.
-        int newHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+		float newHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
 
         //Did anything actually change?
         if (newHealth != currentHealth) 

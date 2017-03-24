@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class PrototypeWeapon : MonoBehaviour {
+public class PrototypeWeapon : MonoBehaviour
+{
+	//Add in comments to script
 
     public Transform[] barrels;
     public Transform[] bulletSpawnPoints;
@@ -15,18 +18,34 @@ public class PrototypeWeapon : MonoBehaviour {
 
     private Transform tr;
 
-    void Start() {
+	[Range (0, 0.2f)] 				//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	public float heat = .01f;		//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	bool overheated = false;		//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+	public Action<float> passHeat;	//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	public HeatBar heatBar;			//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+    void Start() 
+	{
         tr = transform;
+		heatBar.overheat += isOverheated; //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
     }
 
-    public void Fire() {
-        if (Time.time - lastFired > fireRate) {
-            bulletSpawnPointIndex = (bulletSpawnPointIndex + 1) % bulletSpawnPoints.Length;
+    public void Fire() 
+	{
+		if (!overheated) 			//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+		{
+			if (Time.time - lastFired > fireRate) {
+				bulletSpawnPointIndex = (bulletSpawnPointIndex + 1) % bulletSpawnPoints.Length;
 
-            PrototypeBullet bullet = (Instantiate(bulletPrefab, bulletSpawnPoints[bulletSpawnPointIndex].position, bulletSpawnPoints[bulletSpawnPointIndex].rotation) as GameObject).GetComponent<PrototypeBullet>();
-            bullet.owner = this.transform;
-            lastFired = Time.time;
-        }
+				PrototypeBullet bullet = (Instantiate (bulletPrefab, bulletSpawnPoints [bulletSpawnPointIndex].position, bulletSpawnPoints [bulletSpawnPointIndex].rotation) as GameObject).GetComponent<PrototypeBullet> ();
+				bullet.owner = this.transform;
+				lastFired = Time.time;
+
+				passHeat (heat);	//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+			}
+		} 							//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     }
 
     void Update() {
@@ -41,7 +60,8 @@ public class PrototypeWeapon : MonoBehaviour {
         Vector3 aimPoint = Vector3.zero;
         foreach (RaycastHit hit in Physics.RaycastAll(tr.position, tr.forward)) {
             Transform trHit = hit.transform;
-            if (!hit.collider.isTrigger && !tr.IsChildOf(trHit) && hit.distance < aimPointDistance) {
+            if (!hit.collider.isTrigger && !tr.IsChildOf(trHit) && hit.distance < aimPointDistance) 
+			{
                 aimPointDistance = hit.distance;
                 aimPoint = hit.point;
                 somethingToAimAt = true;
@@ -56,6 +76,10 @@ public class PrototypeWeapon : MonoBehaviour {
 
             trBarrel.rotation = Quaternion.RotateTowards(trBarrel.rotation, target, 180f * Time.deltaTime);
         }
-
     }
+
+	void isOverheated(bool _b)		//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	{								//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<					
+		overheated = _b;			//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	}								//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 }

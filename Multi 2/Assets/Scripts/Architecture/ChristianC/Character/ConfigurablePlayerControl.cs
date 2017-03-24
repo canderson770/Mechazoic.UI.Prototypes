@@ -61,9 +61,10 @@ public class ConfigurablePlayerControl : MonoBehaviour {
         }
         wasJumpHeld = Input.GetButton(jumpButton);
 
-        if (Input.GetButton(fireButton) && weapon) {
+        if (Input.GetButton(fireButton) && weapon)
             weapon.Fire();
-        }
+		if(Input.GetButtonUp(fireButton))
+			weapon.passHeat(0);
 
         playerCamera.followTargetRotation = Input.GetButton(snapCameraButton);
         
