@@ -32,7 +32,7 @@ public class Shooter : MonoBehaviour
 	{
 		if (!overheated)
 		{
-			GameObject go = ObjectPoolerScript.current.GetPooledObject ();
+			GameObject go = PoolerScript.current.GetPooledObject ();
 			if (go != null) 
 			{
 				go.transform.position = cameraDir.position;

@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerInput : MonoBehaviour 
 {
+	public bool easyExit;
+
 	void Update ()
 	{
 		if (Input.GetKeyDown (KeyCode.R))
@@ -12,7 +14,7 @@ public class PlayerInput : MonoBehaviour
 			int scene = SceneManager.GetActiveScene().buildIndex;
 			SceneManager.LoadScene(scene, LoadSceneMode.Single);
 		}
-		if (Input.GetKeyDown (KeyCode.Escape)) 
+		if (Input.GetKeyDown (KeyCode.Escape) && easyExit) 
 		{
 				#if UNITY_EDITOR
 				UnityEditor.EditorApplication.isPlaying = false;
