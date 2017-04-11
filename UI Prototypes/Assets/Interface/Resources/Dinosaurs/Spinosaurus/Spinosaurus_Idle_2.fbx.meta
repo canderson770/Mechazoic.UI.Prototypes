@@ -1,0 +1,1081 @@
+fileFormatVersion: 2
+guid: 4149fa9c58527444e913690f7e869f3c
+timeCreated: 1487972026
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: bottom
+    100004: COG_Ctrl
+    100006: COG_Ctrl_Grp
+    100008: COG_Jnt
+    100010: Controls
+    100012: Geometry
+    100014: Head_01_Ctrl
+    100016: Head_01_Ctrl_Grp
+    100018: Head_01_Jnt
+    100020: Head_02_Ctrl_Grp
+    100022: Head_Geo_01
+    100024: Hip_01_Jnt
+    100026: Hip_Ctrl
+    100028: Hip_Ctrl_Grp
+    100030: Jaw_01_Ctrl
+    100032: Jaw_01_Ctrl_Grp
+    100034: Jaw_01_Jnt
+    100036: Jaw_02_Ctrl_Grp
+    100038: Jaw_Geo_01
+    100040: L_Arm_01_Ctrl
+    100042: L_Arm_01_Ctrl_Grp
+    100044: L_Arm_02_Ctrl
+    100046: L_Arm_02_Ctrl_Grp
+    100048: L_Arm_02_Jnt
+    100050: L_Arm_03_Ctrl
+    100052: L_Arm_03_Ctrl_Grp
+    100054: L_Arm_03_Jnt
+    100056: L_Arm_Jnt
+    100058: L_Finger_01_FK_01_Ctrl
+    100060: L_Finger_01_FK_01_Ctrl_Grp
+    100062: L_Finger_01_FK_01_Jnt
+    100064: L_Finger_01_FK_02_Ctrl_Grp
+    100066: L_Finger_02_FK_01_Ctrl
+    100068: L_Finger_02_FK_01_Ctrl_Grp
+    100070: L_Finger_02_FK_01_Jnt
+    100072: L_Finger_02_FK_02_Ctrl_Grp
+    100074: L_Finger_03_FK_01_Ctrl
+    100076: L_Finger_03_FK_01_Ctrl_Grp
+    100078: L_Finger_03_FK_01_Jnt
+    100080: L_Finger_03_FK_02_Ctrl_Grp
+    100082: L_Leg_01_Ctrl
+    100084: L_Leg_01_Ctrl_Grp
+    100086: L_Leg_01_Jnt
+    100088: L_Leg_02_Ctrl
+    100090: L_Leg_02_Ctrl_Grp
+    100092: L_Leg_02_Jnt
+    100094: L_Leg_03_Ctrl
+    100096: L_Leg_03_Ctrl_Grp
+    100098: L_Leg_03_Jnt
+    100100: L_Leg_04_Ctrl
+    100102: L_Leg_04_Ctrl_Grp
+    100104: L_Leg_04_Jnt
+    100106: L_Toe_01_FK_01_Ctrl
+    100108: L_Toe_01_FK_01_Ctrl_Grp
+    100110: L_Toe_01_FK_01_Jnt
+    100112: L_Toe_01_FK_02_Ctrl_Grp
+    100114: L_Toe_02_FK_01_Ctrl
+    100116: L_Toe_02_FK_01_Ctrl_Grp
+    100118: L_Toe_02_FK_01_Jnt
+    100120: L_Toe_02_FK_02_Ctrl_Grp
+    100122: L_Toe_03_FK_01_Ctrl
+    100124: L_Toe_03_FK_01_Ctrl_Grp
+    100126: L_Toe_03_FK_01_Jnt
+    100128: L_Toe_03_FK_02_Ctrl_Grp
+    100130: left
+    100132: Left_Arm_Finger_01_Geo
+    100134: Left_Arm_Finger_02_Geo
+    100136: Left_Arm_Finger_03_Geo
+    100138: Left_Arm_Geo_01
+    100140: Left_Arm_Geo_02
+    100142: Left_Arm_Geo_03
+    100144: Left_Leg_01
+    100146: Left_Leg_01 1
+    100148: Left_Leg__Geo_02
+    100150: Left_Leg_Geo_01
+    100152: Left_Leg_Geo_03
+    100154: Left_Leg_Geo_04
+    100156: Left_Leg_Toe_01_Geo
+    100158: Left_Leg_Toe_02_Geo
+    100160: Left_Leg_Toe_03_Geo
+    100162: Neck_01_Ctrl
+    100164: Neck_01_Ctrl_Grp
+    100166: Neck_01_Jnt
+    100168: Neck_02_Ctrl
+    100170: Neck_02_Ctrl_Grp
+    100172: Neck_02_Jnt
+    100174: Neck_03_Ctrl
+    100176: Neck_03_Ctrl_Grp
+    100178: Neck_03_Jnt
+    100180: Neck_04_Ctrl
+    100182: Neck_04_Ctrl_Grp
+    100184: Neck_04_Jnt
+    100186: Neck_Geo_01
+    100188: Neck_Geo_02
+    100190: Neck_Geo_03
+    100192: pCube35
+    100194: pCube35 1
+    100196: pCube37
+    100198: pCube37 1
+    100200: pCube39
+    100202: pCube39 1
+    100204: pCube41
+    100206: pCube41 1
+    100208: pCube43
+    100210: pCube43 1
+    100212: pCube45
+    100214: pCube45 1
+    100216: polySurface1
+    100218: polySurface1 1
+    100220: polySurface1 2
+    100222: polySurface11
+    100224: polySurface11 1
+    100226: polySurface13
+    100228: polySurface13 1
+    100230: polySurface15
+    100232: polySurface15 1
+    100234: polySurface17
+    100236: polySurface17 1
+    100238: polySurface19
+    100240: polySurface19 1
+    100242: polySurface21
+    100244: polySurface21 1
+    100246: polySurface23
+    100248: polySurface23 1
+    100250: polySurface25
+    100252: polySurface25 1
+    100254: polySurface3
+    100256: polySurface3 1
+    100258: polySurface3 2
+    100260: polySurface5
+    100262: polySurface5 1
+    100264: polySurface9
+    100266: polySurface9 1
+    100268: R_Arm_01_Ctrl
+    100270: R_Arm_01_Ctrl_Grp
+    100272: R_Arm_02_Ctrl
+    100274: R_Arm_02_Ctrl_Grp
+    100276: R_Arm_02_Jnt
+    100278: R_Arm_03_Ctrl
+    100280: R_Arm_03_Ctrl_Grp
+    100282: R_Arm_03_Jnt
+    100284: R_Arm_Jnt
+    100286: R_Finger_01_FK_01_Ctrl
+    100288: R_Finger_01_FK_01_Ctrl_Grp
+    100290: R_Finger_01_FK_01_Jnt
+    100292: R_Finger_01_FK_02_Ctrl_Grp
+    100294: R_Finger_02_FK_01_Ctrl
+    100296: R_Finger_02_FK_01_Ctrl_Grp
+    100298: R_Finger_02_FK_01_Jnt
+    100300: R_Finger_02_FK_02_Ctrl_Grp
+    100302: R_Finger_03_FK_01_Ctrl
+    100304: R_Finger_03_FK_01_Ctrl_Grp
+    100306: R_Finger_03_FK_01_Jnt
+    100308: R_Finger_03_FK_02_Ctrl_Grp
+    100310: R_Leg_01_Ctrl
+    100312: R_Leg_01_Ctrl_Grp
+    100314: R_Leg_01_Jnt
+    100316: R_Leg_02_Ctrl
+    100318: R_Leg_02_Ctrl_Grp
+    100320: R_Leg_02_Jnt
+    100322: R_Leg_03_Ctrl
+    100324: R_Leg_03_Ctrl_Grp
+    100326: R_Leg_03_Jnt
+    100328: R_Leg_04_Ctrl
+    100330: R_Leg_04_Ctrl_Grp
+    100332: R_Leg_04_Jnt
+    100334: R_Toe_01_FK_01_Ctrl
+    100336: R_Toe_01_FK_01_Ctrl_Grp
+    100338: R_Toe_01_FK_01_Jnt
+    100340: R_Toe_01_FK_02_Ctrl_Grp
+    100342: R_Toe_02_FK_01_Ctrl
+    100344: R_Toe_02_FK_01_Ctrl_Grp
+    100346: R_Toe_02_FK_01_Jnt
+    100348: R_Toe_02_FK_02_Ctrl_Grp
+    100350: R_Toe_03_FK_01_Ctrl
+    100352: R_Toe_03_FK_01_Ctrl_Grp
+    100354: R_Toe_03_FK_01_Jnt
+    100356: R_Toe_03_FK_02_Ctrl_Grp
+    100358: Right_Arm_Finger_01_Geo
+    100360: Right_Arm_Finger_02_Geo
+    100362: Right_Arm_Finger_03_Geo
+    100364: Right_Arm_Geo_01
+    100366: Right_Arm_Geo_02
+    100368: Right_Arm_Geo_03
+    100370: Right_Leg_Geo_01
+    100372: Right_Leg_Geo_02
+    100374: Right_Leg_Geo_03
+    100376: Right_Leg_Geo_04
+    100378: Right_Leg_Toe_01_Geo
+    100380: Right_Leg_Toe_02_Geo
+    100382: Right_Leg_Toe_03_Geo
+    100384: S_Tail:left
+    100386: Skeleton
+    100388: Spine_Ctrl
+    100390: Spine_Ctrl_Grp
+    100392: Spine_Geo_03
+    100394: Spine_Geo_04
+    100396: Spine_Jnt
+    100398: Spinosaurus
+    100400: //RootNode
+    100402: Tail_01_Ctrl
+    100404: Tail_01_Ctrl_Grp
+    100406: Tail_01_Jnt
+    100408: Tail_02_Ctrl
+    100410: Tail_02_Ctrl_Grp
+    100412: Tail_02_Jnt
+    100414: Tail_03_Ctrl
+    100416: Tail_03_Ctrl_Grp
+    100418: Tail_03_Jnt
+    100420: Tail_04_Ctrl_Grp
+    100422: Tail_Geo_01
+    100424: Tail_Geo_02
+    100426: Tail_Geo_03
+    100428: Transform_Ctrl
+    100430: Transform_Ctrl_Grp
+    400000: back
+    400002: bottom
+    400004: COG_Ctrl
+    400006: COG_Ctrl_Grp
+    400008: COG_Jnt
+    400010: Controls
+    400012: Geometry
+    400014: Head_01_Ctrl
+    400016: Head_01_Ctrl_Grp
+    400018: Head_01_Jnt
+    400020: Head_02_Ctrl_Grp
+    400022: Head_Geo_01
+    400024: Hip_01_Jnt
+    400026: Hip_Ctrl
+    400028: Hip_Ctrl_Grp
+    400030: Jaw_01_Ctrl
+    400032: Jaw_01_Ctrl_Grp
+    400034: Jaw_01_Jnt
+    400036: Jaw_02_Ctrl_Grp
+    400038: Jaw_Geo_01
+    400040: L_Arm_01_Ctrl
+    400042: L_Arm_01_Ctrl_Grp
+    400044: L_Arm_02_Ctrl
+    400046: L_Arm_02_Ctrl_Grp
+    400048: L_Arm_02_Jnt
+    400050: L_Arm_03_Ctrl
+    400052: L_Arm_03_Ctrl_Grp
+    400054: L_Arm_03_Jnt
+    400056: L_Arm_Jnt
+    400058: L_Finger_01_FK_01_Ctrl
+    400060: L_Finger_01_FK_01_Ctrl_Grp
+    400062: L_Finger_01_FK_01_Jnt
+    400064: L_Finger_01_FK_02_Ctrl_Grp
+    400066: L_Finger_02_FK_01_Ctrl
+    400068: L_Finger_02_FK_01_Ctrl_Grp
+    400070: L_Finger_02_FK_01_Jnt
+    400072: L_Finger_02_FK_02_Ctrl_Grp
+    400074: L_Finger_03_FK_01_Ctrl
+    400076: L_Finger_03_FK_01_Ctrl_Grp
+    400078: L_Finger_03_FK_01_Jnt
+    400080: L_Finger_03_FK_02_Ctrl_Grp
+    400082: L_Leg_01_Ctrl
+    400084: L_Leg_01_Ctrl_Grp
+    400086: L_Leg_01_Jnt
+    400088: L_Leg_02_Ctrl
+    400090: L_Leg_02_Ctrl_Grp
+    400092: L_Leg_02_Jnt
+    400094: L_Leg_03_Ctrl
+    400096: L_Leg_03_Ctrl_Grp
+    400098: L_Leg_03_Jnt
+    400100: L_Leg_04_Ctrl
+    400102: L_Leg_04_Ctrl_Grp
+    400104: L_Leg_04_Jnt
+    400106: L_Toe_01_FK_01_Ctrl
+    400108: L_Toe_01_FK_01_Ctrl_Grp
+    400110: L_Toe_01_FK_01_Jnt
+    400112: L_Toe_01_FK_02_Ctrl_Grp
+    400114: L_Toe_02_FK_01_Ctrl
+    400116: L_Toe_02_FK_01_Ctrl_Grp
+    400118: L_Toe_02_FK_01_Jnt
+    400120: L_Toe_02_FK_02_Ctrl_Grp
+    400122: L_Toe_03_FK_01_Ctrl
+    400124: L_Toe_03_FK_01_Ctrl_Grp
+    400126: L_Toe_03_FK_01_Jnt
+    400128: L_Toe_03_FK_02_Ctrl_Grp
+    400130: left
+    400132: Left_Arm_Finger_01_Geo
+    400134: Left_Arm_Finger_02_Geo
+    400136: Left_Arm_Finger_03_Geo
+    400138: Left_Arm_Geo_01
+    400140: Left_Arm_Geo_02
+    400142: Left_Arm_Geo_03
+    400144: Left_Leg_01
+    400146: Left_Leg_01 1
+    400148: Left_Leg__Geo_02
+    400150: Left_Leg_Geo_01
+    400152: Left_Leg_Geo_03
+    400154: Left_Leg_Geo_04
+    400156: Left_Leg_Toe_01_Geo
+    400158: Left_Leg_Toe_02_Geo
+    400160: Left_Leg_Toe_03_Geo
+    400162: Neck_01_Ctrl
+    400164: Neck_01_Ctrl_Grp
+    400166: Neck_01_Jnt
+    400168: Neck_02_Ctrl
+    400170: Neck_02_Ctrl_Grp
+    400172: Neck_02_Jnt
+    400174: Neck_03_Ctrl
+    400176: Neck_03_Ctrl_Grp
+    400178: Neck_03_Jnt
+    400180: Neck_04_Ctrl
+    400182: Neck_04_Ctrl_Grp
+    400184: Neck_04_Jnt
+    400186: Neck_Geo_01
+    400188: Neck_Geo_02
+    400190: Neck_Geo_03
+    400192: pCube35
+    400194: pCube35 1
+    400196: pCube37
+    400198: pCube37 1
+    400200: pCube39
+    400202: pCube39 1
+    400204: pCube41
+    400206: pCube41 1
+    400208: pCube43
+    400210: pCube43 1
+    400212: pCube45
+    400214: pCube45 1
+    400216: polySurface1
+    400218: polySurface1 1
+    400220: polySurface1 2
+    400222: polySurface11
+    400224: polySurface11 1
+    400226: polySurface13
+    400228: polySurface13 1
+    400230: polySurface15
+    400232: polySurface15 1
+    400234: polySurface17
+    400236: polySurface17 1
+    400238: polySurface19
+    400240: polySurface19 1
+    400242: polySurface21
+    400244: polySurface21 1
+    400246: polySurface23
+    400248: polySurface23 1
+    400250: polySurface25
+    400252: polySurface25 1
+    400254: polySurface3
+    400256: polySurface3 1
+    400258: polySurface3 2
+    400260: polySurface5
+    400262: polySurface5 1
+    400264: polySurface9
+    400266: polySurface9 1
+    400268: R_Arm_01_Ctrl
+    400270: R_Arm_01_Ctrl_Grp
+    400272: R_Arm_02_Ctrl
+    400274: R_Arm_02_Ctrl_Grp
+    400276: R_Arm_02_Jnt
+    400278: R_Arm_03_Ctrl
+    400280: R_Arm_03_Ctrl_Grp
+    400282: R_Arm_03_Jnt
+    400284: R_Arm_Jnt
+    400286: R_Finger_01_FK_01_Ctrl
+    400288: R_Finger_01_FK_01_Ctrl_Grp
+    400290: R_Finger_01_FK_01_Jnt
+    400292: R_Finger_01_FK_02_Ctrl_Grp
+    400294: R_Finger_02_FK_01_Ctrl
+    400296: R_Finger_02_FK_01_Ctrl_Grp
+    400298: R_Finger_02_FK_01_Jnt
+    400300: R_Finger_02_FK_02_Ctrl_Grp
+    400302: R_Finger_03_FK_01_Ctrl
+    400304: R_Finger_03_FK_01_Ctrl_Grp
+    400306: R_Finger_03_FK_01_Jnt
+    400308: R_Finger_03_FK_02_Ctrl_Grp
+    400310: R_Leg_01_Ctrl
+    400312: R_Leg_01_Ctrl_Grp
+    400314: R_Leg_01_Jnt
+    400316: R_Leg_02_Ctrl
+    400318: R_Leg_02_Ctrl_Grp
+    400320: R_Leg_02_Jnt
+    400322: R_Leg_03_Ctrl
+    400324: R_Leg_03_Ctrl_Grp
+    400326: R_Leg_03_Jnt
+    400328: R_Leg_04_Ctrl
+    400330: R_Leg_04_Ctrl_Grp
+    400332: R_Leg_04_Jnt
+    400334: R_Toe_01_FK_01_Ctrl
+    400336: R_Toe_01_FK_01_Ctrl_Grp
+    400338: R_Toe_01_FK_01_Jnt
+    400340: R_Toe_01_FK_02_Ctrl_Grp
+    400342: R_Toe_02_FK_01_Ctrl
+    400344: R_Toe_02_FK_01_Ctrl_Grp
+    400346: R_Toe_02_FK_01_Jnt
+    400348: R_Toe_02_FK_02_Ctrl_Grp
+    400350: R_Toe_03_FK_01_Ctrl
+    400352: R_Toe_03_FK_01_Ctrl_Grp
+    400354: R_Toe_03_FK_01_Jnt
+    400356: R_Toe_03_FK_02_Ctrl_Grp
+    400358: Right_Arm_Finger_01_Geo
+    400360: Right_Arm_Finger_02_Geo
+    400362: Right_Arm_Finger_03_Geo
+    400364: Right_Arm_Geo_01
+    400366: Right_Arm_Geo_02
+    400368: Right_Arm_Geo_03
+    400370: Right_Leg_Geo_01
+    400372: Right_Leg_Geo_02
+    400374: Right_Leg_Geo_03
+    400376: Right_Leg_Geo_04
+    400378: Right_Leg_Toe_01_Geo
+    400380: Right_Leg_Toe_02_Geo
+    400382: Right_Leg_Toe_03_Geo
+    400384: S_Tail:left
+    400386: Skeleton
+    400388: Spine_Ctrl
+    400390: Spine_Ctrl_Grp
+    400392: Spine_Geo_03
+    400394: Spine_Geo_04
+    400396: Spine_Jnt
+    400398: Spinosaurus
+    400400: //RootNode
+    400402: Tail_01_Ctrl
+    400404: Tail_01_Ctrl_Grp
+    400406: Tail_01_Jnt
+    400408: Tail_02_Ctrl
+    400410: Tail_02_Ctrl_Grp
+    400412: Tail_02_Jnt
+    400414: Tail_03_Ctrl
+    400416: Tail_03_Ctrl_Grp
+    400418: Tail_03_Jnt
+    400420: Tail_04_Ctrl_Grp
+    400422: Tail_Geo_01
+    400424: Tail_Geo_02
+    400426: Tail_Geo_03
+    400428: Transform_Ctrl
+    400430: Transform_Ctrl_Grp
+    2300000: Head_Geo_01
+    2300002: Jaw_Geo_01
+    2300004: Left_Leg_01 1
+    2300006: Neck_Geo_01
+    2300008: Neck_Geo_02
+    2300010: Neck_Geo_03
+    2300012: polySurface1 2
+    2300014: polySurface11 1
+    2300016: polySurface13 1
+    2300018: polySurface15 1
+    2300020: polySurface17 1
+    2300022: polySurface19 1
+    2300024: polySurface21 1
+    2300026: polySurface23 1
+    2300028: polySurface25 1
+    2300030: polySurface3 2
+    2300032: polySurface5 1
+    2300034: polySurface9 1
+    2300036: Right_Arm_Finger_01_Geo
+    2300038: Right_Arm_Finger_02_Geo
+    2300040: Right_Arm_Finger_03_Geo
+    2300042: Right_Arm_Geo_01
+    2300044: Right_Arm_Geo_02
+    2300046: Right_Arm_Geo_03
+    2300048: Right_Leg_Geo_01
+    2300050: Right_Leg_Geo_02
+    2300052: Right_Leg_Geo_03
+    2300054: Right_Leg_Geo_04
+    2300056: Right_Leg_Toe_01_Geo
+    2300058: Right_Leg_Toe_02_Geo
+    2300060: Right_Leg_Toe_03_Geo
+    2300062: Spine_Geo_03
+    2300064: Spine_Geo_04
+    2300066: Tail_Geo_01
+    2300068: Tail_Geo_02
+    2300070: Tail_Geo_03
+    3300000: Head_Geo_01
+    3300002: Jaw_Geo_01
+    3300004: Left_Leg_01 1
+    3300006: Neck_Geo_01
+    3300008: Neck_Geo_02
+    3300010: Neck_Geo_03
+    3300012: polySurface1 2
+    3300014: polySurface11 1
+    3300016: polySurface13 1
+    3300018: polySurface15 1
+    3300020: polySurface17 1
+    3300022: polySurface19 1
+    3300024: polySurface21 1
+    3300026: polySurface23 1
+    3300028: polySurface25 1
+    3300030: polySurface3 2
+    3300032: polySurface5 1
+    3300034: polySurface9 1
+    3300036: Right_Arm_Finger_01_Geo
+    3300038: Right_Arm_Finger_02_Geo
+    3300040: Right_Arm_Finger_03_Geo
+    3300042: Right_Arm_Geo_01
+    3300044: Right_Arm_Geo_02
+    3300046: Right_Arm_Geo_03
+    3300048: Right_Leg_Geo_01
+    3300050: Right_Leg_Geo_02
+    3300052: Right_Leg_Geo_03
+    3300054: Right_Leg_Geo_04
+    3300056: Right_Leg_Toe_01_Geo
+    3300058: Right_Leg_Toe_02_Geo
+    3300060: Right_Leg_Toe_03_Geo
+    3300062: Spine_Geo_03
+    3300064: Spine_Geo_04
+    3300066: Tail_Geo_01
+    3300068: Tail_Geo_02
+    3300070: Tail_Geo_03
+    4300000: Right_Arm_Geo_01
+    4300002: Right_Arm_Finger_01_Geo
+    4300004: Right_Arm_Finger_02_Geo
+    4300006: Right_Arm_Geo_03
+    4300008: Right_Arm_Finger_03_Geo
+    4300010: Right_Arm_Geo_02
+    4300012: Right_Leg_Toe_03_Geo
+    4300014: Right_Leg_Geo_03
+    4300016: Right_Leg_Geo_02
+    4300018: Right_Leg_Toe_01_Geo
+    4300020: Right_Leg_Geo_04
+    4300022: Right_Leg_Geo_01
+    4300024: Right_Leg_Toe_02_Geo
+    4300026: polySurface5
+    4300028: polySurface23
+    4300030: polySurface25
+    4300032: polySurface13
+    4300034: polySurface15
+    4300036: polySurface17
+    4300038: Jaw_Geo_01
+    4300040: Head_Geo_01
+    4300042: polySurface19
+    4300044: polySurface21
+    4300046: Left_Leg_01
+    4300048: polySurface9
+    4300050: polySurface11
+    4300052: Neck_Geo_01
+    4300054: Neck_Geo_03
+    4300056: Neck_Geo_02
+    4300058: polySurface1
+    4300060: polySurface3
+    4300062: Tail_Geo_01
+    4300064: Tail_Geo_02
+    4300066: Tail_Geo_03
+    4300068: Spine_Geo_03
+    4300070: Spine_Geo_04
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: S_Tail:left
+        weight: 1
+      - path: Spinosaurus
+        weight: 1
+      - path: Spinosaurus/Controls
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl/L_Toe_01_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl/L_Toe_01_FK_01_Ctrl_Grp/L_Toe_01_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl/L_Toe_01_FK_01_Ctrl_Grp/L_Toe_01_FK_01_Ctrl/L_Toe_01_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl/L_Toe_02_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl/L_Toe_02_FK_01_Ctrl_Grp/L_Toe_02_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl/L_Toe_02_FK_01_Ctrl_Grp/L_Toe_02_FK_01_Ctrl/L_Toe_02_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl/L_Toe_03_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl/L_Toe_03_FK_01_Ctrl_Grp/L_Toe_03_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/L_Leg_01_Ctrl_Grp/L_Leg_01_Ctrl/L_Leg_02_Ctrl_Grp/L_Leg_02_Ctrl/L_Leg_03_Ctrl_Grp/L_Leg_03_Ctrl/L_Leg_04_Ctrl_Grp/L_Leg_04_Ctrl/L_Toe_03_FK_01_Ctrl_Grp/L_Toe_03_FK_01_Ctrl/L_Toe_03_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl/R_Toe_01_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl/R_Toe_01_FK_01_Ctrl_Grp/R_Toe_01_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl/R_Toe_01_FK_01_Ctrl_Grp/R_Toe_01_FK_01_Ctrl/R_Toe_01_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl/R_Toe_02_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl/R_Toe_02_FK_01_Ctrl_Grp/R_Toe_02_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl/R_Toe_02_FK_01_Ctrl_Grp/R_Toe_02_FK_01_Ctrl/R_Toe_02_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl/R_Toe_03_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl/R_Toe_03_FK_01_Ctrl_Grp/R_Toe_03_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/R_Leg_01_Ctrl_Grp/R_Leg_01_Ctrl/R_Leg_02_Ctrl_Grp/R_Leg_02_Ctrl/R_Leg_03_Ctrl_Grp/R_Leg_03_Ctrl/R_Leg_04_Ctrl_Grp/R_Leg_04_Ctrl/R_Toe_03_FK_01_Ctrl_Grp/R_Toe_03_FK_01_Ctrl/R_Toe_03_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/Tail_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/Tail_01_Ctrl_Grp/Tail_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/Tail_01_Ctrl_Grp/Tail_01_Ctrl/Tail_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/Tail_01_Ctrl_Grp/Tail_01_Ctrl/Tail_02_Ctrl_Grp/Tail_02_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/Tail_01_Ctrl_Grp/Tail_01_Ctrl/Tail_02_Ctrl_Grp/Tail_02_Ctrl/Tail_03_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/Tail_01_Ctrl_Grp/Tail_01_Ctrl/Tail_02_Ctrl_Grp/Tail_02_Ctrl/Tail_03_Ctrl_Grp/Tail_03_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Hip_Ctrl_Grp/Hip_Ctrl/Tail_01_Ctrl_Grp/Tail_01_Ctrl/Tail_02_Ctrl_Grp/Tail_02_Ctrl/Tail_03_Ctrl_Grp/Tail_03_Ctrl/Tail_04_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl/L_Finger_01_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl/L_Finger_01_FK_01_Ctrl_Grp/L_Finger_01_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl/L_Finger_01_FK_01_Ctrl_Grp/L_Finger_01_FK_01_Ctrl/L_Finger_01_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl/L_Finger_02_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl/L_Finger_02_FK_01_Ctrl_Grp/L_Finger_02_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl/L_Finger_02_FK_01_Ctrl_Grp/L_Finger_02_FK_01_Ctrl/L_Finger_02_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl/L_Finger_03_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl/L_Finger_03_FK_01_Ctrl_Grp/L_Finger_03_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/L_Arm_01_Ctrl_Grp/L_Arm_01_Ctrl/L_Arm_02_Ctrl_Grp/L_Arm_02_Ctrl/L_Arm_03_Ctrl_Grp/L_Arm_03_Ctrl/L_Finger_03_FK_01_Ctrl_Grp/L_Finger_03_FK_01_Ctrl/L_Finger_03_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp/Neck_03_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp/Neck_03_Ctrl/Neck_04_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp/Neck_03_Ctrl/Neck_04_Ctrl_Grp/Neck_04_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp/Neck_03_Ctrl/Neck_04_Ctrl_Grp/Neck_04_Ctrl/Head_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp/Neck_03_Ctrl/Neck_04_Ctrl_Grp/Neck_04_Ctrl/Head_01_Ctrl_Grp/Head_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp/Neck_03_Ctrl/Neck_04_Ctrl_Grp/Neck_04_Ctrl/Head_01_Ctrl_Grp/Head_01_Ctrl/Head_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp/Neck_03_Ctrl/Neck_04_Ctrl_Grp/Neck_04_Ctrl/Jaw_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp/Neck_03_Ctrl/Neck_04_Ctrl_Grp/Neck_04_Ctrl/Jaw_01_Ctrl_Grp/Jaw_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/Neck_01_Ctrl_Grp/Neck_01_Ctrl/Neck_02_Ctrl_Grp/Neck_02_Ctrl/Neck_03_Ctrl_Grp/Neck_03_Ctrl/Neck_04_Ctrl_Grp/Neck_04_Ctrl/Jaw_01_Ctrl_Grp/Jaw_01_Ctrl/Jaw_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl/R_Finger_01_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl/R_Finger_01_FK_01_Ctrl_Grp/R_Finger_01_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl/R_Finger_01_FK_01_Ctrl_Grp/R_Finger_01_FK_01_Ctrl/R_Finger_01_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl/R_Finger_02_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl/R_Finger_02_FK_01_Ctrl_Grp/R_Finger_02_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl/R_Finger_02_FK_01_Ctrl_Grp/R_Finger_02_FK_01_Ctrl/R_Finger_02_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl/R_Finger_03_FK_01_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl/R_Finger_03_FK_01_Ctrl_Grp/R_Finger_03_FK_01_Ctrl
+        weight: 1
+      - path: Spinosaurus/Controls/Transform_Ctrl_Grp/Transform_Ctrl/COG_Ctrl_Grp/COG_Ctrl/Spine_Ctrl_Grp/Spine_Ctrl/R_Arm_01_Ctrl_Grp/R_Arm_01_Ctrl/R_Arm_02_Ctrl_Grp/R_Arm_02_Ctrl/R_Arm_03_Ctrl_Grp/R_Arm_03_Ctrl/R_Finger_03_FK_01_Ctrl_Grp/R_Finger_03_FK_01_Ctrl/R_Finger_03_FK_02_Ctrl_Grp
+        weight: 1
+      - path: Spinosaurus/Geometry
+        weight: 1
+      - path: Spinosaurus/Geometry/Head_Geo_01
+        weight: 1
+      - path: Spinosaurus/Geometry/Jaw_Geo_01
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_01_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_01_Geo/pCube41
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_01_Geo/pCube41/pCube41 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_01_Geo/pCube41/pCube41 1/polySurface25
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_01_Geo/pCube41/pCube41 1/polySurface25/polySurface25
+          1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_02_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_02_Geo/pCube43
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_02_Geo/pCube43/pCube43 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_02_Geo/pCube43/pCube43 1/polySurface23
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_02_Geo/pCube43/pCube43 1/polySurface23/polySurface23
+          1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_03_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_03_Geo/pCube45
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_03_Geo/pCube45/pCube45 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_03_Geo/pCube45/pCube45 1/polySurface5
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Finger_03_Geo/pCube45/pCube45 1/polySurface5/polySurface5
+          1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_01
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_01/polySurface19
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_01/polySurface19/polySurface19 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_02
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_02/polySurface21
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_02/polySurface21/polySurface21 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_03
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_03/polySurface1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_03/polySurface1/polySurface1 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Arm_Geo_03/polySurface1/polySurface1 1/polySurface1
+          2
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg__Geo_02
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg__Geo_02/polySurface9
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg__Geo_02/polySurface9/polySurface9 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_01
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_01/Left_Leg_01
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_01/Left_Leg_01/Left_Leg_01 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_03
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_03/polySurface11
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_03/polySurface11/polySurface11 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_04
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_04/polySurface3
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_04/polySurface3/polySurface3 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Geo_04/polySurface3/polySurface3 1/polySurface3
+          2
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_01_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_01_Geo/pCube37
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_01_Geo/pCube37/pCube37 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_01_Geo/pCube37/pCube37 1/polySurface13
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_01_Geo/pCube37/pCube37 1/polySurface13/polySurface13
+          1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_02_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_02_Geo/pCube35
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_02_Geo/pCube35/pCube35 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_02_Geo/pCube35/pCube35 1/polySurface17
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_02_Geo/pCube35/pCube35 1/polySurface17/polySurface17
+          1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_03_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_03_Geo/pCube39
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_03_Geo/pCube39/pCube39 1
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_03_Geo/pCube39/pCube39 1/polySurface15
+        weight: 1
+      - path: Spinosaurus/Geometry/Left_Leg_Toe_03_Geo/pCube39/pCube39 1/polySurface15/polySurface15
+          1
+        weight: 1
+      - path: Spinosaurus/Geometry/Neck_Geo_01
+        weight: 1
+      - path: Spinosaurus/Geometry/Neck_Geo_02
+        weight: 1
+      - path: Spinosaurus/Geometry/Neck_Geo_03
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Arm_Finger_01_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Arm_Finger_02_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Arm_Finger_03_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Arm_Geo_01
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Arm_Geo_02
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Arm_Geo_03
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Leg_Geo_01
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Leg_Geo_02
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Leg_Geo_03
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Leg_Geo_04
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Leg_Toe_01_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Leg_Toe_02_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Right_Leg_Toe_03_Geo
+        weight: 1
+      - path: Spinosaurus/Geometry/Spine_Geo_03
+        weight: 1
+      - path: Spinosaurus/Geometry/Spine_Geo_04
+        weight: 1
+      - path: Spinosaurus/Geometry/Tail_Geo_01
+        weight: 1
+      - path: Spinosaurus/Geometry/Tail_Geo_02
+        weight: 1
+      - path: Spinosaurus/Geometry/Tail_Geo_03
+        weight: 1
+      - path: Spinosaurus/Skeleton
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/L_Leg_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/L_Leg_01_Jnt/L_Leg_02_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/L_Leg_01_Jnt/L_Leg_02_Jnt/L_Leg_03_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/L_Leg_01_Jnt/L_Leg_02_Jnt/L_Leg_03_Jnt/L_Leg_04_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/L_Leg_01_Jnt/L_Leg_02_Jnt/L_Leg_03_Jnt/L_Leg_04_Jnt/L_Toe_01_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/L_Leg_01_Jnt/L_Leg_02_Jnt/L_Leg_03_Jnt/L_Leg_04_Jnt/L_Toe_02_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/L_Leg_01_Jnt/L_Leg_02_Jnt/L_Leg_03_Jnt/L_Leg_04_Jnt/L_Toe_03_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/R_Leg_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/R_Leg_01_Jnt/R_Leg_02_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/R_Leg_01_Jnt/R_Leg_02_Jnt/R_Leg_03_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/R_Leg_01_Jnt/R_Leg_02_Jnt/R_Leg_03_Jnt/R_Leg_04_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/R_Leg_01_Jnt/R_Leg_02_Jnt/R_Leg_03_Jnt/R_Leg_04_Jnt/R_Toe_01_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/R_Leg_01_Jnt/R_Leg_02_Jnt/R_Leg_03_Jnt/R_Leg_04_Jnt/R_Toe_02_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/R_Leg_01_Jnt/R_Leg_02_Jnt/R_Leg_03_Jnt/R_Leg_04_Jnt/R_Toe_03_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Hip_01_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/L_Arm_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/L_Arm_Jnt/L_Arm_02_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/L_Arm_Jnt/L_Arm_02_Jnt/L_Arm_03_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/L_Arm_Jnt/L_Arm_02_Jnt/L_Arm_03_Jnt/L_Finger_01_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/L_Arm_Jnt/L_Arm_02_Jnt/L_Arm_03_Jnt/L_Finger_02_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/L_Arm_Jnt/L_Arm_02_Jnt/L_Arm_03_Jnt/L_Finger_03_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/Neck_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/Neck_01_Jnt/Neck_02_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/Neck_01_Jnt/Neck_02_Jnt/Neck_03_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/Neck_01_Jnt/Neck_02_Jnt/Neck_03_Jnt/Neck_04_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/Neck_01_Jnt/Neck_02_Jnt/Neck_03_Jnt/Neck_04_Jnt/Head_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/Neck_01_Jnt/Neck_02_Jnt/Neck_03_Jnt/Neck_04_Jnt/Jaw_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/R_Arm_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/R_Arm_Jnt/R_Arm_02_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/R_Arm_Jnt/R_Arm_02_Jnt/R_Arm_03_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/R_Arm_Jnt/R_Arm_02_Jnt/R_Arm_03_Jnt/R_Finger_01_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/R_Arm_Jnt/R_Arm_02_Jnt/R_Arm_03_Jnt/R_Finger_02_FK_01_Jnt
+        weight: 1
+      - path: Spinosaurus/Skeleton/COG_Jnt/Spine_Jnt/R_Arm_Jnt/R_Arm_02_Jnt/R_Arm_03_Jnt/R_Finger_03_FK_01_Jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
