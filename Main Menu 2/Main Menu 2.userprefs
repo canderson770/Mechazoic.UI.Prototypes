@@ -1,13 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MainMenuButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MainMenuButtonConfig.cs">
     <Files>
-      <File FileName="Assets\MainMenuButtonConfig.cs" Line="5" Column="34" />
-      <File FileName="Assets\MainMenuButton.cs" Line="40" Column="81" />
+      <File FileName="Assets\Scripts\appearScript.cs" Line="5" Column="26" />
+      <File FileName="Assets\Scripts\AnimatedTexture.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LookAtCamera.cs" Line="19" Column="2" />
+      <File FileName="Assets\Scripts\MainMenuButton.cs" Line="77" Column="3" />
+      <File FileName="Assets\Scripts\MainMenuButtonConfig.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\10600006\Documents\UI-Prototype\Main Menu 2\Assets\appearScript.cs" line="14" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
