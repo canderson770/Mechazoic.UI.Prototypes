@@ -8,7 +8,7 @@ public class MainMenuButton : MonoBehaviour
 	public static Action<bool> overButton;
 
 	private Vector3 normalPosition;
-	private string currentButton;
+	private string currentButton = "";
 	private float clickAmount;
 
 	public float distance;
